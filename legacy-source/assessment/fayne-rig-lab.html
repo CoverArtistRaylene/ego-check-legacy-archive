@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fayne Rig Lab</title>
+  <link rel="stylesheet" href="fayne-rig-lab.css">
+</head>
+<body>
+  <main>
+    <section class="stage" data-state="idle">
+      <div class="ground"></div>
+      <div class="rig" aria-label="Animated Fayne rig test">
+        <img class="part legs" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <img class="part skirt" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <img class="part core" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <img class="part arm upper left" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <img class="part arm lower left" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <img class="part arm upper right" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <img class="part arm lower right" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+        <div class="head">
+          <img class="part head-art" src="assets/living-signals/fayne/fayne-master-clean.webp" alt="">
+          <span class="blink left-eye"></span><span class="blink right-eye"></span>
+          <span class="mouth"><img class="ah" src="assets/fayne-rig-lab/mouth-ah.webp" alt=""><img class="ee" src="assets/fayne-rig-lab/mouth-e.webp" alt=""><img class="oh" src="assets/fayne-rig-lab/mouth-o.webp" alt=""><img class="smile" src="assets/fayne-rig-lab/mouth-smile.webp" alt=""></span>
+        </div>
+      </div>
+      <aside>
+        <small>ISOLATED RIG LAB</small>
+        <h1>Fayne Notices You</h1>
+        <p id="line">She waits quietly, hands resting at her sides.</p>
+        <div class="controls"><button data-state="idle">Idle</button><button data-state="notice">Notice</button><button data-state="talk">Speak</button><button data-state="shy">Shy</button><button data-state="content">Settle</button><button id="play">Play interaction</button></div>
+      </aside>
+    </section>
+  </main>
+  <script src="fayne-rig-lab.js"></script>
+</body>
+</html>
