@@ -1,0 +1,4581 @@
+{
+  "source_repository": "CoverArtistRaylene/ego-check-part-1-vercel",
+  "source_branch": "archive/full-site-snapshot-2026-10-19",
+  "source_snapshot_commit": "9204fa75615b2839ba49238eba975d153643cc57",
+  "generated_date": "2026-10-19",
+  "note": "Manifest only: files are NOT copied into this repository. Git blob hashes enable later verification.",
+  "file_count": 914,
+  "total_bytes": 195198481,
+  "files": [
+    {
+      "path": ".github/workflows/desktop-windows.yml",
+      "sha": "5b48e89a428aa8e7cea10158d335063c8fce6a4c",
+      "size": 753
+    },
+    {
+      "path": ".gitignore",
+      "sha": "5c3106bca53f71d2cea117f457bbed271a65b515",
+      "size": 94
+    },
+    {
+      "path": ".vercelignore",
+      "sha": "34e41c1352dce71fec57dd721c9ffe4e2aad52f0",
+      "size": 201
+    },
+    {
+      "path": "app-icons/icon-192.png",
+      "sha": "2e2f4b43b649cc35c72b0224105d8970c7e0a3b5",
+      "size": 37156
+    },
+    {
+      "path": "app-icons/icon-512.png",
+      "sha": "30ef8e925446435f06e81feb19798b474527c7a4",
+      "size": 186437
+    },
+    {
+      "path": "app-icons/icon-maskable-512.png",
+      "sha": "c579ff5e6e56a65e4e6882a11cb5ed4e962aea6d",
+      "size": 103714
+    },
+    {
+      "path": "assessment/aetheridge.css",
+      "sha": "7f48a91ef7783d2e56b1350fa0070a691295bcec",
+      "size": 17244
+    },
+    {
+      "path": "assessment/aetheridge.js",
+      "sha": "640b6cfa94a879a2885a1ed761df148c72ee7580",
+      "size": 57029
+    },
+    {
+      "path": "assessment/app-install.css",
+      "sha": "0486b174318e8d019a7a622accf65e3c8d829787",
+      "size": 1067
+    },
+    {
+      "path": "assessment/app-install.js",
+      "sha": "6b2e563072c79cd6d631dbd32d29cb7e73293162",
+      "size": 1359
+    },
+    {
+      "path": "assessment/assets/adversarial-povs/kade.webp",
+      "sha": "015cbd72620b8e212073dbf6d6a68df8282a4c3d",
+      "size": 238720
+    },
+    {
+      "path": "assessment/assets/adversarial-povs/lynx.webp",
+      "sha": "332a97ba64e45fb2dd78bdf9a6b55b9bb592c4a5",
+      "size": 168012
+    },
+    {
+      "path": "assessment/assets/adversarial-povs/nyx.webp",
+      "sha": "aa68419337fab5726963b2112762c8efe24f23ad",
+      "size": 197404
+    },
+    {
+      "path": "assessment/assets/adversarial-povs/solace.webp",
+      "sha": "4d245fef56e914e41719818535bfbe5d9aa44174",
+      "size": 198352
+    },
+    {
+      "path": "assessment/assets/cafe-ava-apology.webp",
+      "sha": "c66a0c9dde51e1a39a07e89a74630eff87779359",
+      "size": 102106
+    },
+    {
+      "path": "assessment/assets/cafe-ava-closes-notebook.webp",
+      "sha": "a6221a63bf40b93dcd19f33c6e590241391d5c56",
+      "size": 91766
+    },
+    {
+      "path": "assessment/assets/cafe-ava-correction.webp",
+      "sha": "3894921369c8ad3f36944a9cc47c9ee889e91565",
+      "size": 97484
+    },
+    {
+      "path": "assessment/assets/cafe-ava-cutout.webp",
+      "sha": "98b0a9b50f3acb87003649aa39a6078a3cdcb9e2",
+      "size": 78592
+    },
+    {
+      "path": "assessment/assets/cafe-ava-studying.webp",
+      "sha": "31b701919c2e5f73913f41f2319cce0f2e188807",
+      "size": 92272
+    },
+    {
+      "path": "assessment/assets/cafe-bruce-cutout.webp",
+      "sha": "7b7b4dffcf86a1f564a10bab6ce89d80e8ad5d33",
+      "size": 62170
+    },
+    {
+      "path": "assessment/assets/cafe-bruce-empty.webp",
+      "sha": "456e46f72b30208ab0e3e3e0df4f6f8be963965c",
+      "size": 65474
+    },
+    {
+      "path": "assessment/assets/cafe-bruce-finishes-drink.webp",
+      "sha": "1a92aecfe85b76fd96df008346be100923cd61b2",
+      "size": 97336
+    },
+    {
+      "path": "assessment/assets/cafe-bruce-observant.webp",
+      "sha": "5f6aa8733a50d1a067ae7d6efbead39e8f2cc9da",
+      "size": 83340
+    },
+    {
+      "path": "assessment/assets/cafe-bruce-welcome.webp",
+      "sha": "33faaa50acdf1fa50d7ce10d3b00878f5d19dd2d",
+      "size": 90216
+    },
+    {
+      "path": "assessment/assets/cafe-group-establishing.webp",
+      "sha": "9e0b6079ab818afb6cbbc0edefb777b9000768e2",
+      "size": 96104
+    },
+    {
+      "path": "assessment/assets/cafe-jake-concerned.webp",
+      "sha": "d124ad1cfccdb64877732de2fabb2d883982630f",
+      "size": 84342
+    },
+    {
+      "path": "assessment/assets/cafe-jake-cutout.webp",
+      "sha": "99e4c7fe085ee67a4fbf376ede63cdab0e3fc000",
+      "size": 67258
+    },
+    {
+      "path": "assessment/assets/cafe-jake-defensive.webp",
+      "sha": "23cbcdb280b0eaf248c3941c3c9fe849f999433f",
+      "size": 89054
+    },
+    {
+      "path": "assessment/assets/cafe-jake-smug.webp",
+      "sha": "e87b91f0407ab4cfbcd587d039df0e028ccab3ab",
+      "size": 85318
+    },
+    {
+      "path": "assessment/assets/cafe-jake-stands.webp",
+      "sha": "eabd07f5e4e78d5b1c42c0278fa37f0de86add4c",
+      "size": 84906
+    },
+    {
+      "path": "assessment/assets/cafe-jake-welcome.webp",
+      "sha": "1a46bb606b2c31dba3496cb1d8139dd8afcd3a7a",
+      "size": 83420
+    },
+    {
+      "path": "assessment/assets/cafe-logan-amused.webp",
+      "sha": "87a8153bb0814e4e4422dac6cf89ef1382d8c7f3",
+      "size": 99326
+    },
+    {
+      "path": "assessment/assets/cafe-logan-cutout.webp",
+      "sha": "c6c3cb9d49ac1afdadf5b11bcfcc7498c3eefce1",
+      "size": 39834
+    },
+    {
+      "path": "assessment/assets/cafe-logan-deadpan.webp",
+      "sha": "a745ae5ff66e3d9a64d96ef409880e25a4e6cace",
+      "size": 96220
+    },
+    {
+      "path": "assessment/assets/cafe-logan-headphones.webp",
+      "sha": "364d2ca4b4317a42ce202d7bed2cf96270d2e40b",
+      "size": 95198
+    },
+    {
+      "path": "assessment/assets/cafe-logan-reading.webp",
+      "sha": "7291795db9cf2055239cb7e7fd2af13bfe5dfa0f",
+      "size": 92036
+    },
+    {
+      "path": "assessment/assets/cafe-marcus-conceding.webp",
+      "sha": "de9205ab4447c13919345b1b4dad59b1dc88dd99",
+      "size": 124990
+    },
+    {
+      "path": "assessment/assets/cafe-marcus-cutout.webp",
+      "sha": "498fc484f935463263957e63dafbeed0b8c6bb8f",
+      "size": 77588
+    },
+    {
+      "path": "assessment/assets/cafe-marcus-empty.webp",
+      "sha": "2f7b6f8fc65cf1befbebe489d465bac4bf275a78",
+      "size": 74244
+    },
+    {
+      "path": "assessment/assets/cafe-marcus-offended.webp",
+      "sha": "612bb809228c823c691016284840eda84a7a9265",
+      "size": 108166
+    },
+    {
+      "path": "assessment/assets/cafe-marcus-pastry.webp",
+      "sha": "a59dad33a049c8d87201bc0e2b309337c70e5ad9",
+      "size": 107384
+    },
+    {
+      "path": "assessment/assets/cafe-marcus-pleased.webp",
+      "sha": "318b38adee25398189d6f6865665e87926a42f92",
+      "size": 107510
+    },
+    {
+      "path": "assessment/assets/cafe-raxian-cinematic.webp",
+      "sha": "b04c66650a1611fc5961b0b87d085c9c2cfbac00",
+      "size": 68262
+    },
+    {
+      "path": "assessment/assets/cafe-raxian-irritated.webp",
+      "sha": "b75179b84a3de59f43a67ed89d6422b0860e5468",
+      "size": 69978
+    },
+    {
+      "path": "assessment/assets/cafe-raxian-softened.webp",
+      "sha": "b0f31874721cebf57321fe02806f5177520730aa",
+      "size": 79984
+    },
+    {
+      "path": "assessment/assets/cafe-raxian-wounded.webp",
+      "sha": "9a3ff67c343ea2d3857ebac55ed6c35b725186de",
+      "size": 69574
+    },
+    {
+      "path": "assessment/assets/cafe-table-blur.webp",
+      "sha": "66cf770a2d1b1f30314721d3282b311e02e55fa0",
+      "size": 33630
+    },
+    {
+      "path": "assessment/assets/cafe-table-empty.webp",
+      "sha": "fc1aef03b8dfd962acff47d250826877b651e49c",
+      "size": 84668
+    },
+    {
+      "path": "assessment/assets/cafe-tess-apron-off.webp",
+      "sha": "b6e66aaf61b8cc997ab2ccbac319377950417f7a",
+      "size": 120818
+    },
+    {
+      "path": "assessment/assets/cafe-tess-concern.webp",
+      "sha": "f0c92f9bb475a32959e35a244c622222dd0398fc",
+      "size": 118244
+    },
+    {
+      "path": "assessment/assets/cafe-tess-cutout.webp",
+      "sha": "5983612a282739eae5714b390adca1ee12613f4c",
+      "size": 96130
+    },
+    {
+      "path": "assessment/assets/cafe-tess-deadpan.webp",
+      "sha": "b2664d1d5dda1a16b64c978f0375b3c279d5d4c3",
+      "size": 117722
+    },
+    {
+      "path": "assessment/assets/cafe-tess-empty.webp",
+      "sha": "71cb31391c54903d870809bc8c3c290263845ecd",
+      "size": 84528
+    },
+    {
+      "path": "assessment/assets/cafe-tess-warning.webp",
+      "sha": "2d7f3689ed3b5b5fd5c4b51b76d74ea36b3e6c00",
+      "size": 137928
+    },
+    {
+      "path": "assessment/assets/catch-me-when-i-run/background.webp",
+      "sha": "ccc5d05dbcf4f819e22493749937d07cbd32efa7",
+      "size": 596220
+    },
+    {
+      "path": "assessment/assets/catch-me-when-i-run/mira-evan.webp",
+      "sha": "f29a4203eb4d6fb351823588e3a4c522f2ac4765",
+      "size": 279006
+    },
+    {
+      "path": "assessment/assets/childhood-friend/agnes.webp",
+      "sha": "7dab016499db591be807ec867d24589519f51184",
+      "size": 181274
+    },
+    {
+      "path": "assessment/assets/childhood-friend/theater.webp",
+      "sha": "b7ae6b79d3717603322dc6de67ed43a85aad2eda",
+      "size": 105926
+    },
+    {
+      "path": "assessment/assets/city/1-to-2.webp",
+      "sha": "e05b9493b87f0cfb64a5b447329b003e7b91d00a",
+      "size": 277278
+    },
+    {
+      "path": "assessment/assets/city/1.webp",
+      "sha": "592c33f5c45d33b32c5c405412adaf8bdf652d5b",
+      "size": 239264
+    },
+    {
+      "path": "assessment/assets/city/10.webp",
+      "sha": "2e05734171663eb0834743a422a696b8998891c7",
+      "size": 363140
+    },
+    {
+      "path": "assessment/assets/city/11-to-12.webp",
+      "sha": "28140547707565fee745f163fba5a75ff7e8d892",
+      "size": 352334
+    },
+    {
+      "path": "assessment/assets/city/11.webp",
+      "sha": "f682143d0d60e1521b55b71545562924ec67895f",
+      "size": 391766
+    },
+    {
+      "path": "assessment/assets/city/12-to-13.webp",
+      "sha": "e03d2166d9f5dd57483c11a01694ac95cf005a72",
+      "size": 373420
+    },
+    {
+      "path": "assessment/assets/city/12.webp",
+      "sha": "7ffe3bc99a33a884450f0eb8e0d5cf18520c11cf",
+      "size": 374496
+    },
+    {
+      "path": "assessment/assets/city/13-to-14.webp",
+      "sha": "f4fab30852bcc5ebe0d83c6567b522afcddf0f51",
+      "size": 365094
+    },
+    {
+      "path": "assessment/assets/city/13.webp",
+      "sha": "3b195a5e69b23c4b3677b67d37a00bc05f40c227",
+      "size": 341030
+    },
+    {
+      "path": "assessment/assets/city/14.webp",
+      "sha": "ea3bb797f31cff021de4a942af04ff55f578ddd9",
+      "size": 352674
+    },
+    {
+      "path": "assessment/assets/city/15.webp",
+      "sha": "f4252e1d1cedc352100f78471f6e4e1fc8bc9684",
+      "size": 399118
+    },
+    {
+      "path": "assessment/assets/city/16-to-17.webp",
+      "sha": "078d190c121cf8bd3d850b453c718ae0669ec185",
+      "size": 293716
+    },
+    {
+      "path": "assessment/assets/city/16.webp",
+      "sha": "7aa17470cad0c71fd2de5a73fc188257bb8325b8",
+      "size": 362410
+    },
+    {
+      "path": "assessment/assets/city/17-to-18-2.webp",
+      "sha": "6173cd130e0eb630cecdb68fe26d9aeef24a7239",
+      "size": 362364
+    },
+    {
+      "path": "assessment/assets/city/17-to-18.webp",
+      "sha": "21e360f8881082ef143a2ae03d37993fe2a9291c",
+      "size": 380300
+    },
+    {
+      "path": "assessment/assets/city/17.webp",
+      "sha": "b3cfdcf3abd113dc5636ae22430fd7ec168d0a66",
+      "size": 276476
+    },
+    {
+      "path": "assessment/assets/city/18.webp",
+      "sha": "e5542b620ea093d366cd7c997035e1f5cddc67ee",
+      "size": 394856
+    },
+    {
+      "path": "assessment/assets/city/19-to-20.webp",
+      "sha": "bf58e10d6fd6e75e7d6943dd2b9061074d16b249",
+      "size": 333772
+    },
+    {
+      "path": "assessment/assets/city/19.webp",
+      "sha": "58bef72129807fce6cc408129a018bc953630eb7",
+      "size": 390420
+    },
+    {
+      "path": "assessment/assets/city/2.webp",
+      "sha": "95113d7173ca34a68ea6af11553b4734e97b73d7",
+      "size": 345230
+    },
+    {
+      "path": "assessment/assets/city/20-to-21.webp",
+      "sha": "dc664e1bd157a680c06c688306b2f5f362db0741",
+      "size": 353566
+    },
+    {
+      "path": "assessment/assets/city/20.webp",
+      "sha": "b4aaf31064b0f66fa74b8d2658c4830cf9eab66f",
+      "size": 272070
+    },
+    {
+      "path": "assessment/assets/city/21-to-22.webp",
+      "sha": "7503c8aea6b0f9dbb9386ed4d859075aecf32ca1",
+      "size": 411168
+    },
+    {
+      "path": "assessment/assets/city/21.webp",
+      "sha": "c7b90f08029bb92b2859365aadfb3af9a565ecb4",
+      "size": 369578
+    },
+    {
+      "path": "assessment/assets/city/22.webp",
+      "sha": "422553977a7796d315c2859a3e418c8d660cd86a",
+      "size": 377160
+    },
+    {
+      "path": "assessment/assets/city/23.webp",
+      "sha": "4c9df11524fb0f9e6332e5e39c3e80dfe909d657",
+      "size": 402922
+    },
+    {
+      "path": "assessment/assets/city/24-to-25.webp",
+      "sha": "510fe33cceefce8af52394e2119824da2b98a960",
+      "size": 357898
+    },
+    {
+      "path": "assessment/assets/city/24.webp",
+      "sha": "a1d79914c270c07ccbf16b77f7a104b1c8e09e10",
+      "size": 371126
+    },
+    {
+      "path": "assessment/assets/city/25.webp",
+      "sha": "f71ed337c5e57edcebeb50d68d8387a229ff43f0",
+      "size": 367456
+    },
+    {
+      "path": "assessment/assets/city/3.webp",
+      "sha": "013ff290a6caaf666429f1e37853b631e1d473a0",
+      "size": 349746
+    },
+    {
+      "path": "assessment/assets/city/4.webp",
+      "sha": "12b51a0a79056dd988ce7d8facd912664f4598bb",
+      "size": 388030
+    },
+    {
+      "path": "assessment/assets/city/5.webp",
+      "sha": "7bc586e319f5e061b931aed83b76861534d948e8",
+      "size": 390304
+    },
+    {
+      "path": "assessment/assets/city/6.webp",
+      "sha": "4b7e6ece802ca36b8a3110ba44076accc53f0e37",
+      "size": 419912
+    },
+    {
+      "path": "assessment/assets/city/7.webp",
+      "sha": "ff9a8d91c45d0d673fff7daf74c62259bd88742b",
+      "size": 413194
+    },
+    {
+      "path": "assessment/assets/city/8-to-9.webp",
+      "sha": "d8cba896651bcc8008ba02ded7de1aae68bbf6c9",
+      "size": 317940
+    },
+    {
+      "path": "assessment/assets/city/8.webp",
+      "sha": "ba6d84577febde79fe15bbc57620cb1b1442a69f",
+      "size": 394708
+    },
+    {
+      "path": "assessment/assets/city/9-to-10-2.webp",
+      "sha": "37c0de99916a9bd9bb3027a756921190e642227d",
+      "size": 343574
+    },
+    {
+      "path": "assessment/assets/city/9-to-10.webp",
+      "sha": "2d24d384e5e522074bcfd14517c2551d418f9e6a",
+      "size": 343280
+    },
+    {
+      "path": "assessment/assets/city/9.webp",
+      "sha": "aeeffab4cef9e6140f45ff127464a8c82ca25636",
+      "size": 306240
+    },
+    {
+      "path": "assessment/assets/city/locations/anchor-courtyard.webp",
+      "sha": "6f329d57326f0e9206c351aa5a703b50af490e0f",
+      "size": 474542
+    },
+    {
+      "path": "assessment/assets/city/locations/anchor-gateway.webp",
+      "sha": "48d4ceb9c92ec14d77dff717068f5a068d107a36",
+      "size": 472124
+    },
+    {
+      "path": "assessment/assets/city/locations/anchor-repair-shop.webp",
+      "sha": "9c1c834c523e03bb021ede51ba8392f1845eee1c",
+      "size": 420616
+    },
+    {
+      "path": "assessment/assets/city/locations/anchor-shopping-street.webp",
+      "sha": "20517719aa6db7f33c2489fccf6ead684029c567",
+      "size": 498054
+    },
+    {
+      "path": "assessment/assets/city/locations/central-crossing.webp",
+      "sha": "8f9967a1a8f5dca580f37fba655fb4fea75566d7",
+      "size": 500700
+    },
+    {
+      "path": "assessment/assets/city/locations/central-side-street.webp",
+      "sha": "9ee5cbdb0a83d78aa4eccb67102d60bc2e58919a",
+      "size": 467230
+    },
+    {
+      "path": "assessment/assets/city/locations/crossmere-forecourt.webp",
+      "sha": "3144153c812d24911cb84795db9805b673114e72",
+      "size": 392206
+    },
+    {
+      "path": "assessment/assets/city/locations/crossmere-platform.webp",
+      "sha": "8320986b9b89c6e316ef2d4769f010c62ebd60bb",
+      "size": 391018
+    },
+    {
+      "path": "assessment/assets/city/locations/flow-bridge.webp",
+      "sha": "5d3fa794df9a4f08b9f2eefcdf968a3c0f9786f3",
+      "size": 464392
+    },
+    {
+      "path": "assessment/assets/city/locations/flow-riverside.webp",
+      "sha": "efa4b3ba06cc83629bcdc495cff75a0f7e023e23",
+      "size": 445206
+    },
+    {
+      "path": "assessment/assets/city/locations/flow-tram-stop.webp",
+      "sha": "b0b290a684d88ba4d75b7edf3942c0053f08c0dd",
+      "size": 445858
+    },
+    {
+      "path": "assessment/assets/city/locations/flux-gathering-space.webp",
+      "sha": "bdd6b356710fd3b46d26069033d24cd691af2cfb",
+      "size": 639794
+    },
+    {
+      "path": "assessment/assets/city/locations/flux-northern-connector.webp",
+      "sha": "0329504e9dc1633cec8e57c7cdaeae9a10398778",
+      "size": 573470
+    },
+    {
+      "path": "assessment/assets/city/locations/flux-workshop-street.webp",
+      "sha": "a851ed56089514382cf65f77e44a9d4ae495da19",
+      "size": 633330
+    },
+    {
+      "path": "assessment/assets/city/locations/old-district-street.webp",
+      "sha": "b00aa374dbf8a0ba475de4653278450d099247ef",
+      "size": 411582
+    },
+    {
+      "path": "assessment/assets/city/locations/quiet-junctionimportant.webp",
+      "sha": "d7efc93bc86c99ce70ef164b45f049bae8ac61ed",
+      "size": 459044
+    },
+    {
+      "path": "assessment/assets/city/locations/shift-entrance.webp",
+      "sha": "f3ccfc179ad0ada0645baa337345f76e36225ccb",
+      "size": 396648
+    },
+    {
+      "path": "assessment/assets/city/locations/shift-studio.webp",
+      "sha": "7eb4d8cceecda64df01c296881796dd46764390b",
+      "size": 448726
+    },
+    {
+      "path": "assessment/assets/city/locations/surge-broadcast-corner.webp",
+      "sha": "897b0afc81a102b92f88d7dbffcdf315660e8e39",
+      "size": 493850
+    },
+    {
+      "path": "assessment/assets/city/locations/surge-cafe-exterior.webp",
+      "sha": "84099928a3426d55bee351aef8c9cbc51d84a0c1",
+      "size": 634442
+    },
+    {
+      "path": "assessment/assets/city/locations/surge-cafe-interior.webp",
+      "sha": "0d2bb681a13e7de18d26f3a9465b3ad9fc91a852",
+      "size": 548162
+    },
+    {
+      "path": "assessment/assets/companion-povs/agnes.webp",
+      "sha": "844f6e3d777d32dc00cd4665760a426c23721b8e",
+      "size": 162010
+    },
+    {
+      "path": "assessment/assets/companion-povs/leah.webp",
+      "sha": "d2a067cf61d2b077e9f9c2ab7047389bb4c3f76d",
+      "size": 128232
+    },
+    {
+      "path": "assessment/assets/companion-povs/mira.webp",
+      "sha": "6945b03a9449a1b7d166d7857515ab985fb4d8af",
+      "size": 259998
+    },
+    {
+      "path": "assessment/assets/companion-povs/paul.webp",
+      "sha": "0baf4444d5765e1249ce77bc6244d5b69edf5b07",
+      "size": 123676
+    },
+    {
+      "path": "assessment/assets/connection/aetheridge-dream.webp",
+      "sha": "25d4b28ae8d32c663c107e69f9bf01783016bc73",
+      "size": 667408
+    },
+    {
+      "path": "assessment/assets/connection/aetheridge-unlabeled.webp",
+      "sha": "bdcd33fdc57d41c5bdafa3c84de6a879fe96c69b",
+      "size": 899686
+    },
+    {
+      "path": "assessment/assets/connection/aetheridge-v2.webp",
+      "sha": "a294f4670a11c583749f98004cf2d196b453bf1a",
+      "size": 856692
+    },
+    {
+      "path": "assessment/assets/connection/aetheridge.webp",
+      "sha": "a294f4670a11c583749f98004cf2d196b453bf1a",
+      "size": 856692
+    },
+    {
+      "path": "assessment/assets/connection/apex.webp",
+      "sha": "25d0ec91fd4abcbc6dd1f1e11a93e7f4e9847946",
+      "size": 333262
+    },
+    {
+      "path": "assessment/assets/connection/core.webp",
+      "sha": "eb6884135305c19456246e300951704667dbbed7",
+      "size": 274226
+    },
+    {
+      "path": "assessment/assets/connection/null.webp",
+      "sha": "808ad1b8c7a862cfe833128971ac7ae28421603f",
+      "size": 218966
+    },
+    {
+      "path": "assessment/assets/connection/prism.webp",
+      "sha": "0450bb634733d1aa14dfe9d387f5bc4403074ae3",
+      "size": 352002
+    },
+    {
+      "path": "assessment/assets/connection/raylene-creator-trace.mp3",
+      "sha": "22c7a1c8bfbeb02e4a76ef11ab946ee5f279b1d1",
+      "size": 327789
+    },
+    {
+      "path": "assessment/assets/crossover-povs/ethan.webp",
+      "sha": "9f10776d12c0d84980d07caadf4be9e57e4a21e4",
+      "size": 161526
+    },
+    {
+      "path": "assessment/assets/disconnected-still-here/scenes/01-gifted-kid.webp",
+      "sha": "a467931d7e245d77584940979e4807bc7e01a8a5",
+      "size": 79762
+    },
+    {
+      "path": "assessment/assets/disconnected-still-here/scenes/02-second-hand-desk.webp",
+      "sha": "aa38c1ff0a77fc65ccd8b327a7dbbc38578a4c23",
+      "size": 127526
+    },
+    {
+      "path": "assessment/assets/disconnected-still-here/scenes/03-play-date.webp",
+      "sha": "ec447bbda6e42d21ed4955c97543a569b4bfce38",
+      "size": 95266
+    },
+    {
+      "path": "assessment/assets/disconnected-still-here/scenes/04-work-better-alone.webp",
+      "sha": "2ba3d3521bc80cbd43ae41864ccafba1f69a5e5b",
+      "size": 87420
+    },
+    {
+      "path": "assessment/assets/disconnected-still-here/scenes/05-twice-a-year.webp",
+      "sha": "dcf074a5662206acfeb0b99be70072ac909a252d",
+      "size": 40620
+    },
+    {
+      "path": "assessment/assets/disconnected-still-here/scenes/06-just-noticing.webp",
+      "sha": "77480e3a18f5d80343ffea3b26072620a8c58740",
+      "size": 45590
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/01.webp",
+      "sha": "eb6b566f79686f0c78fc94838f51b7e4b736d1e3",
+      "size": 94888
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/02.webp",
+      "sha": "636b31386a997d77623a363ae7d71316fd610caa",
+      "size": 60140
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/03.webp",
+      "sha": "0657dfbf197b666742a0e452fa2b9d9a7fca13bf",
+      "size": 108362
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/04.webp",
+      "sha": "a4fb3645ad0ca2a76b16b6d6f9c3ba4c78cbf4c6",
+      "size": 105120
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/05.webp",
+      "sha": "5ed721fdbcaedd1e9bcb46b32e100f9997069f17",
+      "size": 87060
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/06.webp",
+      "sha": "118e6c6c4cc74279d956ac6be42819748e34bbe4",
+      "size": 112216
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/07.webp",
+      "sha": "0bfa7ab9f569952fd7c1239a013eca1033d498f7",
+      "size": 87406
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/08.webp",
+      "sha": "6078bdfee3d575965b3898aa87de3e168b7dd536",
+      "size": 97770
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/09.webp",
+      "sha": "d8b29e25e24900e4f740fe58b1dbba6d7070bff8",
+      "size": 101446
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/10.webp",
+      "sha": "09a91e2a154075716b96fe07477cc7ad798b4047",
+      "size": 90170
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/11.webp",
+      "sha": "15596f91c86d51f2b9756a41f8e1d8473f4b757b",
+      "size": 87330
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/12.webp",
+      "sha": "23c84dc9b4d3b1b1a43f803527dfefc052e76fcf",
+      "size": 71988
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/13.webp",
+      "sha": "f81a15d9a0d5b9ca956cf318e563fee60fd11908",
+      "size": 65658
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/14.webp",
+      "sha": "ec5048eb7c1907a0d76a0fb91b712ca1f83d21c9",
+      "size": 75082
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/15.webp",
+      "sha": "fd44424f13d2eab31cef9f9dcbdd71fbf44ebbce",
+      "size": 164796
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/16.webp",
+      "sha": "76ed49d7445464ca895b03c99286380194e9ad89",
+      "size": 144516
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/17.webp",
+      "sha": "13ac728254b7abf20ebdb5290ae8f0f143df5d3b",
+      "size": 177316
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/18.webp",
+      "sha": "b98bd4a2fee9a1f22a5effd4f29de60f0a18fd58",
+      "size": 108082
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/19.webp",
+      "sha": "c879c1354aa4ff0ccb55cab277cd5bf90fc9eefa",
+      "size": 185124
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/20.webp",
+      "sha": "0f7a764628e57b1f65fad04e4f877436be7cf15b",
+      "size": 148026
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/21.webp",
+      "sha": "5112e149790925d309cb40a660d8b4acb41e8b36",
+      "size": 156326
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/22.webp",
+      "sha": "36071c570ebf84ec7a646ae38e77967f2f42ae3b",
+      "size": 71118
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/24.webp",
+      "sha": "035483128e876cb3410967128b123e27e1880dfc",
+      "size": 154784
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/25.webp",
+      "sha": "d4cd9e01fff7a80ef40189d40e1f17abb882a161",
+      "size": 84398
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/26.webp",
+      "sha": "1ed88bcdc654f825cce16360cd23371eddafd9f9",
+      "size": 83824
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/song.m4a",
+      "sha": "df7cfd2880e7c417b34c86846b48a7c5fb67b32c",
+      "size": 744798
+    },
+    {
+      "path": "assessment/assets/dont-mistake-it-for-quiet/thumbnail.webp",
+      "sha": "6078bdfee3d575965b3898aa87de3e168b7dd536",
+      "size": 97770
+    },
+    {
+      "path": "assessment/assets/ego-check-logo-rainbow.png",
+      "sha": "2f0e860f967220b67fd6f24c75f7f6a55f351ee2",
+      "size": 173280
+    },
+    {
+      "path": "assessment/assets/ego-check-logo-spectrum.png",
+      "sha": "751578743b54f92adbe681d5a082efd850149454",
+      "size": 1288498
+    },
+    {
+      "path": "assessment/assets/ego-check-logo.webp",
+      "sha": "0a16b936f9d77d2aa8e8f0c33e79cb45f0fc37aa",
+      "size": 48034
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Battery.wav",
+      "sha": "164f73279db9a5166c8c8dbe5de93a69d635ff67",
+      "size": 52082
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Check_System_Pack.zip",
+      "sha": "40376c8091d95750ce9fa50ee778b82ed3442f22",
+      "size": 369370
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Critical.wav",
+      "sha": "c4ebc597bdc16ee0e99e3828f8de246915367b84",
+      "size": 67956
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_DeviceConnect.wav",
+      "sha": "4a452ecab1334c07b3c79ddefb55d502fd242b67",
+      "size": 44584
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_DeviceDisconnect.wav",
+      "sha": "879608ade5fb009bda67b9f6048a47a79fcecc70",
+      "size": 46348
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Error.wav",
+      "sha": "a6a7429766ef6a67ddeb1eeaf1f52308567617bb",
+      "size": 35324
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Exclamation.wav",
+      "sha": "3b0ee576dbb8fe82ae9e7a2c9847d61c9f8d1ecc",
+      "size": 30208
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Notification.wav",
+      "sha": "e90bbb78572f06aa3511c9a33ceada3a38f75ba9",
+      "size": 47230
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_Recycle.wav",
+      "sha": "c078c49313788d106c56a454d80d783d73436ac8",
+      "size": 40174
+    },
+    {
+      "path": "assessment/assets/ego-check-system/EGO_System.wav",
+      "sha": "6923d30a57a109f82d72a7bff9e93aac62ca9090",
+      "size": 42380
+    },
+    {
+      "path": "assessment/assets/ego-check-system/aetheridge-awakened-v2.webp",
+      "sha": "2088dc1d1bf7ccee9f350f0c12268aa70d985875",
+      "size": 330862
+    },
+    {
+      "path": "assessment/assets/ego-check-system/ego-opening-original-web.mp4",
+      "sha": "2365940e6752b4721f995a23c4beb118e2c95517",
+      "size": 1768615
+    },
+    {
+      "path": "assessment/assets/ego-check-system/ego-opening-web.mp4",
+      "sha": "b8b25fb50e85a8bf2a28ebb2d8da37bc77f141fd",
+      "size": 786446
+    },
+    {
+      "path": "assessment/assets/ego-check-system/empty-logo.webp",
+      "sha": "af45ed73092bd0db829dee9f18ca03b52c69dd7e",
+      "size": 274736
+    },
+    {
+      "path": "assessment/assets/ego-check-system/pulse-logo.webp",
+      "sha": "dfdfe36ce053b1d38c5617d68eb20e3e414b9efd",
+      "size": 361298
+    },
+    {
+      "path": "assessment/assets/ego-core-interface.png",
+      "sha": "a819d462e289a5a352089c021c0e2e08f51eb834",
+      "size": 1107147
+    },
+    {
+      "path": "assessment/assets/ego-core-restored.png",
+      "sha": "751578743b54f92adbe681d5a082efd850149454",
+      "size": 1288498
+    },
+    {
+      "path": "assessment/assets/ego-energy-field.jpg",
+      "sha": "15dac0dc113fb558e3e95a8ad7efa066a7303571",
+      "size": 363519
+    },
+    {
+      "path": "assessment/assets/ego-replay-storyboard.webp",
+      "sha": "c1e433567a2e35b30f31b7e79ccd13c0ccc602d9",
+      "size": 42712
+    },
+    {
+      "path": "assessment/assets/ego-theme-corrupt-state.m4a",
+      "sha": "d59943c853b785017b8f8770cd9172ba08c799f4",
+      "size": 3113337
+    },
+    {
+      "path": "assessment/assets/ego-theme-instrumental-muffled.m4a",
+      "sha": "3fbb58a9ad98fa2d4fc5937948cfa678f62e567a",
+      "size": 3927648
+    },
+    {
+      "path": "assessment/assets/ego-theme-instrumental-spooky.m4a",
+      "sha": "a7cac741a335dcd77f0c549ad27e7e2c563d4bf9",
+      "size": 4289170
+    },
+    {
+      "path": "assessment/assets/ego-theme-instrumental.m4a",
+      "sha": "35a4ccd1198a5775bc51b748b0fbd25ed92b2835",
+      "size": 4018157
+    },
+    {
+      "path": "assessment/assets/ego-universe-stars.jpg",
+      "sha": "1ebf9f99f7b3df25b972f4ff9924512a2a574360",
+      "size": 558166
+    },
+    {
+      "path": "assessment/assets/ego/ego-void.webp",
+      "sha": "f33b84b15ad97b79eddf978d726d2e5299adb86a",
+      "size": 71032
+    },
+    {
+      "path": "assessment/assets/ego/normal-analytical.webp",
+      "sha": "813d4694b58d766cb6b7f9c2deabcd0a075a5487",
+      "size": 109964
+    },
+    {
+      "path": "assessment/assets/ego/normal-boundary-testing.webp",
+      "sha": "edf4e012267a3ece3d395678099b0350713db194",
+      "size": 360744
+    },
+    {
+      "path": "assessment/assets/ego/normal-connection-withheld.webp",
+      "sha": "6849f6ec6cecf778e9143e4dd7c96f152ae512b6",
+      "size": 352434
+    },
+    {
+      "path": "assessment/assets/ego/normal-curious.webp",
+      "sha": "da3e90f62416d98f499b452a4a59d37dfca22df1",
+      "size": 250826
+    },
+    {
+      "path": "assessment/assets/ego/normal-formal.webp",
+      "sha": "f25be76e73dfdcf919a497abbebbc4eec592f47c",
+      "size": 181936
+    },
+    {
+      "path": "assessment/assets/ego/normal-idle.webp",
+      "sha": "9d92698064c845108146be683e54d16c30ebea5e",
+      "size": 212894
+    },
+    {
+      "path": "assessment/assets/ego/normal-pleased.webp",
+      "sha": "ca5f60f13a595eda70bb11f04b1daa14e738fb9f",
+      "size": 221350
+    },
+    {
+      "path": "assessment/assets/ego/normal-reluctantly-pleased.webp",
+      "sha": "716814bf2c7f69e6e79f69af720714d23eb6ef4f",
+      "size": 230988
+    },
+    {
+      "path": "assessment/assets/ego/normal-silent-recognition.webp",
+      "sha": "1b4e8987470fa8f06e37ce496da564326da60cc7",
+      "size": 302462
+    },
+    {
+      "path": "assessment/assets/ego/normal-unreadable.webp",
+      "sha": "9d75051a40afbcde7bf098c341d5b01c49c6b6ce",
+      "size": 242192
+    },
+    {
+      "path": "assessment/assets/ego/rare-arrival.webp",
+      "sha": "8f398038efd494035fbd5ff5cfd2b7b6fc8a8b04",
+      "size": 568816
+    },
+    {
+      "path": "assessment/assets/ego/rare-boundary-testing.webp",
+      "sha": "47dbfb08d65c5c0a6def2a91fa097d21bbf75ed2",
+      "size": 81044
+    },
+    {
+      "path": "assessment/assets/ego/rare-cold-avoidance.webp",
+      "sha": "9cee46fc8b27f53d3b31037a53a0f039ed05ede3",
+      "size": 63824
+    },
+    {
+      "path": "assessment/assets/ego/rare-failure.webp",
+      "sha": "4992e511b97cacd82adaa947c91a5c00991e3521",
+      "size": 134054
+    },
+    {
+      "path": "assessment/assets/ego/rare-fascination.webp",
+      "sha": "d435069d6511aee3750aef2b1c90ab77c0fd2cac",
+      "size": 390042
+    },
+    {
+      "path": "assessment/assets/ego/rare-post-failure-restraint.webp",
+      "sha": "af07a7adafa90ebe125a12429faaeeff25201ae0",
+      "size": 90230
+    },
+    {
+      "path": "assessment/assets/emotes/intro-calm-mobile.webp",
+      "sha": "66c4ad0fc19b6046a2233c82e6d1f999c198783b",
+      "size": 52696
+    },
+    {
+      "path": "assessment/assets/emotes/intro-calm.webp",
+      "sha": "1129cfcd6618c10dd8d65c707d39a79277df4fa6",
+      "size": 192864
+    },
+    {
+      "path": "assessment/assets/emotes/intro-energetic-mobile.webp",
+      "sha": "8e43ef0b8a8b6efa72e228b7a7d1caee395b1cbd",
+      "size": 52180
+    },
+    {
+      "path": "assessment/assets/emotes/intro-energetic.webp",
+      "sha": "f7bd23848e0f21fc9ca4ae703666b9f6cb5d169e",
+      "size": 184014
+    },
+    {
+      "path": "assessment/assets/emotes/intro-serious-mobile.webp",
+      "sha": "f918ec8a1d27bd7f9cffb1309d427561d73da2e0",
+      "size": 62552
+    },
+    {
+      "path": "assessment/assets/emotes/intro-serious.webp",
+      "sha": "cbe2b298d3dbc5f9c35ff0eb19735c1fd624cc9c",
+      "size": 231616
+    },
+    {
+      "path": "assessment/assets/emotes/rare-apex-mobile.webp",
+      "sha": "fc8ab5624324dcae9d4a513b9489842bea581878",
+      "size": 55308
+    },
+    {
+      "path": "assessment/assets/emotes/rare-apex.webp",
+      "sha": "d8a86b04e6a834bca3c612da64a2bde3105f80f9",
+      "size": 219100
+    },
+    {
+      "path": "assessment/assets/emotes/rare-detected-mobile.webp",
+      "sha": "b2779ac595152088faa5c683e5bcf977dc493397",
+      "size": 63586
+    },
+    {
+      "path": "assessment/assets/emotes/rare-detected.webp",
+      "sha": "56f3fddd3fa75b197e0715072b75e4785408534b",
+      "size": 248714
+    },
+    {
+      "path": "assessment/assets/emotes/rare-invite-mobile.webp",
+      "sha": "b6fb32c053ce263ae3258b14350f49c47d54b875",
+      "size": 62856
+    },
+    {
+      "path": "assessment/assets/emotes/rare-invite.webp",
+      "sha": "56463b299c23c35d5023ea0a6ad94674b185b458",
+      "size": 238396
+    },
+    {
+      "path": "assessment/assets/emotes/rare-null-mobile.webp",
+      "sha": "e6f7aa2b6d42a1c7681cfb08d48959b5a745d8d7",
+      "size": 56532
+    },
+    {
+      "path": "assessment/assets/emotes/rare-null.webp",
+      "sha": "25bf32dd3b6b2dbf509b591879c45f5214b06639",
+      "size": 219530
+    },
+    {
+      "path": "assessment/assets/emotes/rare-observer-mobile.webp",
+      "sha": "dff5321b5daa257837e9b9d361758213c1b9f921",
+      "size": 63332
+    },
+    {
+      "path": "assessment/assets/emotes/rare-observer.webp",
+      "sha": "bd78ae2e25776d844978ea6e78830ad03ebfc559",
+      "size": 247288
+    },
+    {
+      "path": "assessment/assets/emotes/rare-prism-mobile.webp",
+      "sha": "8b00b4dddf2c8886bfbf044bc1392da449731538",
+      "size": 63756
+    },
+    {
+      "path": "assessment/assets/emotes/rare-prism.webp",
+      "sha": "42e3c46c4bbb4a29b29393427309a4bee0432c43",
+      "size": 236408
+    },
+    {
+      "path": "assessment/assets/emotes/rare-shadow-mobile.webp",
+      "sha": "c45e367339af3e3c5134a5c8ba08abc2257d973b",
+      "size": 51526
+    },
+    {
+      "path": "assessment/assets/emotes/rare-shadow.webp",
+      "sha": "21b511557ce7623f9bdda8e21d2b6ef43e521ae2",
+      "size": 169872
+    },
+    {
+      "path": "assessment/assets/encounters/artist-1.webp",
+      "sha": "ce2cf912695fd189180a600a6a0fbad9e2051b46",
+      "size": 368322
+    },
+    {
+      "path": "assessment/assets/encounters/artist-2.webp",
+      "sha": "c4a70fdea9a9397bb9044e14f56c620ab9cd11ed",
+      "size": 380406
+    },
+    {
+      "path": "assessment/assets/encounters/artist-3.webp",
+      "sha": "62b3c2b34459b5328054965f8ad1543caa8799d0",
+      "size": 336124
+    },
+    {
+      "path": "assessment/assets/encounters/artist-helper-1.webp",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "assessment/assets/encounters/artist-helper-2.webp",
+      "sha": "6a14d168b0eec2c4e2391a303900571af5006e42",
+      "size": 334528
+    },
+    {
+      "path": "assessment/assets/encounters/artist-helper-3.webp",
+      "sha": "491235df0aadc4d2a5b6701ea9ea0e9cb6cd9bda",
+      "size": 412502
+    },
+    {
+      "path": "assessment/assets/encounters/artist-helper-4.webp",
+      "sha": "b3097756b0259128c1ee85e2fdf9073d6c0c0800",
+      "size": 307076
+    },
+    {
+      "path": "assessment/assets/encounters/cafe.webp",
+      "sha": "873695077f9230dc9afa119dbfc7c20fdbb1e756",
+      "size": 320106
+    },
+    {
+      "path": "assessment/assets/encounters/courier-1.webp",
+      "sha": "e0930990297cdf177d3e88e0d06bd40d3f3addd9",
+      "size": 340526
+    },
+    {
+      "path": "assessment/assets/encounters/courier-2.webp",
+      "sha": "c7e83d31898254c8412a93a7c51c0088ebd4161a",
+      "size": 306488
+    },
+    {
+      "path": "assessment/assets/encounters/courier-3.webp",
+      "sha": "4ee75975cac5662496e55e8ffb210dc4fe1c1039",
+      "size": 306980
+    },
+    {
+      "path": "assessment/assets/encounters/customer.webp",
+      "sha": "2304e74fae0df0976322cb20bcc16d011963bb6a",
+      "size": 207534
+    },
+    {
+      "path": "assessment/assets/encounters/messenger-1.webp",
+      "sha": "617a40713d19146fe4aa461e5a85c0459ef03c8e",
+      "size": 302520
+    },
+    {
+      "path": "assessment/assets/encounters/messenger-2.webp",
+      "sha": "76377afee75433ece90e83af15d4fee52b85109a",
+      "size": 336996
+    },
+    {
+      "path": "assessment/assets/encounters/passenger-1.webp",
+      "sha": "bcdf9cc3686bf08369581469286f1e188caf141e",
+      "size": 354890
+    },
+    {
+      "path": "assessment/assets/encounters/passenger-2.webp",
+      "sha": "3b833356262507e4fd2225be31be043fda0a3202",
+      "size": 330594
+    },
+    {
+      "path": "assessment/assets/encounters/passenger-3.webp",
+      "sha": "d253d46df237ed612834ae8d95a807d52f0aa247",
+      "size": 327266
+    },
+    {
+      "path": "assessment/assets/encounters/repairer.webp",
+      "sha": "7dc621d24984fdb69a1015359a9562e7dc1d4866",
+      "size": 326304
+    },
+    {
+      "path": "assessment/assets/encounters/worker.webp",
+      "sha": "a5b100f3f61243ce81164f76e0dd9e61380bf0f4",
+      "size": 235000
+    },
+    {
+      "path": "assessment/assets/fayne-rig-lab/mouth-ah.webp",
+      "sha": "d9566e1b259e1c6cbc7c824106890fb396f5e05e",
+      "size": 702
+    },
+    {
+      "path": "assessment/assets/fayne-rig-lab/mouth-e.webp",
+      "sha": "d18aad6ad4b03dec52ca8f56a0c718adce881aa5",
+      "size": 478
+    },
+    {
+      "path": "assessment/assets/fayne-rig-lab/mouth-o.webp",
+      "sha": "a73f591a04efc3a131e30e89b7a2996a2c3a4f5a",
+      "size": 580
+    },
+    {
+      "path": "assessment/assets/fayne-rig-lab/mouth-smile.webp",
+      "sha": "cad1cf27f18bfdc08e3f8b95a8be9e2dc438b8c7",
+      "size": 622
+    },
+    {
+      "path": "assessment/assets/inherited-signals/damian.webp",
+      "sha": "f6a7af2df870489c4dd49310219723627bc0f5b6",
+      "size": 38318
+    },
+    {
+      "path": "assessment/assets/inherited-signals/daniel.webp",
+      "sha": "01995943bfd86cda919cec4d6920a1e230a83a4c",
+      "size": 60208
+    },
+    {
+      "path": "assessment/assets/inherited-signals/dorothy.webp",
+      "sha": "9b13c4e83ded9feafee7935f7e34182f272fff89",
+      "size": 41310
+    },
+    {
+      "path": "assessment/assets/inherited-signals/franklin.webp",
+      "sha": "ab3731fe93be6654f157806ff6df5a26dd36c13d",
+      "size": 41926
+    },
+    {
+      "path": "assessment/assets/inherited-signals/lillian.webp",
+      "sha": "84be8e5c9f000f72b5d06d407335b5e059d878c0",
+      "size": 61148
+    },
+    {
+      "path": "assessment/assets/inherited-signals/margaret.webp",
+      "sha": "bff91dfc9d232f4b673f38210766aef6cfc7c924",
+      "size": 94216
+    },
+    {
+      "path": "assessment/assets/inherited-signals/maya.webp",
+      "sha": "64ddbbbee1aa9a50e92f27be6d149b806483c0f7",
+      "size": 79388
+    },
+    {
+      "path": "assessment/assets/inherited-signals/raymond.webp",
+      "sha": "2a03de70d7ccb1ecf94d1986ef03d7463b99a1fd",
+      "size": 69052
+    },
+    {
+      "path": "assessment/assets/inherited-signals/raze-father.webp",
+      "sha": "f71c46a4e4340062ec3037697bbb8f4af9ca4ca5",
+      "size": 49616
+    },
+    {
+      "path": "assessment/assets/inherited-signals/victoria.webp",
+      "sha": "6b1c124263402e1d245722203f564ca68b1ebf3d",
+      "size": 52634
+    },
+    {
+      "path": "assessment/assets/inherited-signals/vivienne.webp",
+      "sha": "24906e4049ae941a496690a797de6959950022e4",
+      "size": 87528
+    },
+    {
+      "path": "assessment/assets/inherited-signals/william.webp",
+      "sha": "1f2955d2221b14acc89bdd88f128360ef2791cbe",
+      "size": 61432
+    },
+    {
+      "path": "assessment/assets/inner-truths/fayne/hugging-minnie-2-modified(2).webp",
+      "sha": "144a3202b795466631636105c50097003c18b53b",
+      "size": 52382
+    },
+    {
+      "path": "assessment/assets/inner-truths/fayne/hugging-minnie-3-modified(2).webp",
+      "sha": "886c8077a56ea13a793b372b9db701457541f7fc",
+      "size": 62722
+    },
+    {
+      "path": "assessment/assets/inner-truths/fayne/hugging-minnie-4-modified(2).webp",
+      "sha": "ff71214c51d90fa5999844de6579b27a57504cfb",
+      "size": 52790
+    },
+    {
+      "path": "assessment/assets/inner-truths/fayne/hugging-minnie-modified(2).webp",
+      "sha": "7f8c1239842c1a862bd97eb3b6bec5f6e72176a7",
+      "size": 49016
+    },
+    {
+      "path": "assessment/assets/inner-truths/fayne/i-was-quiet-first.m4a",
+      "sha": "6418ce9e3d9e8b472e4ed9289a81172ab96afdc3",
+      "size": 2467692
+    },
+    {
+      "path": "assessment/assets/intro/background.webp",
+      "sha": "9b72851d47a7c74d0633b138f1dbc1be603f8f0e",
+      "size": 71216
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/echo-1.webp",
+      "sha": "5c917d58fd05585f734b5401c9880dcb686a2e9a",
+      "size": 162002
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/echo-2.webp",
+      "sha": "dec0ae59a82d01d54b9f16417bb83421a4c57122",
+      "size": 171532
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/echo-3.webp",
+      "sha": "6a4189a1dda095996b9b05755b62942f04c96720",
+      "size": 153796
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/echo-4.webp",
+      "sha": "d369b101a6d2e005f9563c295db1d1bf67f1213a",
+      "size": 153704
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-1-v2.webp",
+      "sha": "ef67e6366630539131d7d2a8dd72455043681bcd",
+      "size": 153680
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-1.webp",
+      "sha": "da34f2f3705d36e5926ba430097e9e92b6e5d21a",
+      "size": 136496
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-2-v2.webp",
+      "sha": "e3190309f3effba60768f52129a651a57861be0f",
+      "size": 156930
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-2.webp",
+      "sha": "d459836996e19fd2ed17beacf63195251f32dabc",
+      "size": 147406
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-3-v2.webp",
+      "sha": "3ff9e76052749c5cb6ebab222357196627138780",
+      "size": 152140
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-3.webp",
+      "sha": "be10b23d8fa579bee67b80294b105bddb46b25f6",
+      "size": 139438
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-4-v2.webp",
+      "sha": "b161deea3f4eef1fffc81b462645db305544a5d6",
+      "size": 157182
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-4.webp",
+      "sha": "0d16833d3b5d6c59fb569bf6bc430765bdff89d7",
+      "size": 132614
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/pulse-5.webp",
+      "sha": "a31a1f1624e2238c0c78f5ff7a5b87cb65ac46c0",
+      "size": 135814
+    },
+    {
+      "path": "assessment/assets/intro/crossmere/station.webp",
+      "sha": "7bb788c6b55027545849fc85bfa5879b2951e8a8",
+      "size": 594806
+    },
+    {
+      "path": "assessment/assets/intro/echo-analyzing.webp",
+      "sha": "126c18f88e1d866c5822ac7fbe2a17493d02e758",
+      "size": 371672
+    },
+    {
+      "path": "assessment/assets/intro/echo-broken.webp",
+      "sha": "47ea57e7b2708b73c8025e3bbf20b2fea7247bc0",
+      "size": 512818
+    },
+    {
+      "path": "assessment/assets/intro/echo-concerned.webp",
+      "sha": "b7d06ff20c3120582f69f42d9f06c234fa62aa8d",
+      "size": 308836
+    },
+    {
+      "path": "assessment/assets/intro/echo-guarded.webp",
+      "sha": "dbaf3d0105c2be04295317f957f79d592e149373",
+      "size": 357462
+    },
+    {
+      "path": "assessment/assets/intro/echo-idle.webp",
+      "sha": "482a08d0a5bcd753943cfdb47bc6e9742ae712a4",
+      "size": 316160
+    },
+    {
+      "path": "assessment/assets/intro/echo-interested.webp",
+      "sha": "44a50fd94665c2741ecd59b3b8c8d3213954a74a",
+      "size": 307186
+    },
+    {
+      "path": "assessment/assets/intro/echo-rings.webp",
+      "sha": "e69910496391990b73d364ce85e06d5b476c0d2a",
+      "size": 634136
+    },
+    {
+      "path": "assessment/assets/intro/echo-skeptical.webp",
+      "sha": "f255b0985180568898b9d8184d0159edf65c82c9",
+      "size": 305598
+    },
+    {
+      "path": "assessment/assets/intro/echo-smile.webp",
+      "sha": "2745a53d08134864751883880b36abd7d1a37567",
+      "size": 299800
+    },
+    {
+      "path": "assessment/assets/intro/echo-sparks.webp",
+      "sha": "a262fda7023458b4bd8a4a2c783f5254572ddf43",
+      "size": 876984
+    },
+    {
+      "path": "assessment/assets/intro/echo-surprised.webp",
+      "sha": "ea948f4dd306513fdc0582400ac3b3eeb3621d9f",
+      "size": 314120
+    },
+    {
+      "path": "assessment/assets/intro/echo-sweep.webp",
+      "sha": "7da84b912e45003c50d0086d3008c89cd051022a",
+      "size": 831924
+    },
+    {
+      "path": "assessment/assets/intro/pulse-alarm.webp",
+      "sha": "2b2c678c719fce7441ee3c6ce591621cf6f1937f",
+      "size": 188946
+    },
+    {
+      "path": "assessment/assets/intro/pulse-curious.webp",
+      "sha": "1a6f937b4869abddc582d57d85b411cdc06e0fc2",
+      "size": 95586
+    },
+    {
+      "path": "assessment/assets/intro/pulse-excited.webp",
+      "sha": "12319dc973be884d7c6c1d5a0501d6e5c331ddd8",
+      "size": 86720
+    },
+    {
+      "path": "assessment/assets/intro/pulse-idle.webp",
+      "sha": "02fc396803c35b04e0fa6b5039c5902a2f09a16e",
+      "size": 85222
+    },
+    {
+      "path": "assessment/assets/intro/pulse-mischievous.webp",
+      "sha": "3a862d828bf394c5ac2f2823f3d73c086822f68e",
+      "size": 96510
+    },
+    {
+      "path": "assessment/assets/intro/pulse-protective.webp",
+      "sha": "cb02d88bd2cf9527144342fa1dfa69d946b7e733",
+      "size": 111414
+    },
+    {
+      "path": "assessment/assets/intro/pulse-reassuring.webp",
+      "sha": "6811db40fd334f2e6635b3e5398e89e0a43467ed",
+      "size": 92562
+    },
+    {
+      "path": "assessment/assets/intro/pulse-rings.webp",
+      "sha": "e06424ecab34527b33738f9bf67c751c916e0a80",
+      "size": 409508
+    },
+    {
+      "path": "assessment/assets/intro/pulse-sparks.webp",
+      "sha": "49600479964f8dc75ceb6e6cf251292c61e27d1c",
+      "size": 565580
+    },
+    {
+      "path": "assessment/assets/intro/pulse-surprised.webp",
+      "sha": "7d7fda9502716f3df685a0a4fabcf9e8e86da429",
+      "size": 115826
+    },
+    {
+      "path": "assessment/assets/intro/pulse-sweep.webp",
+      "sha": "80f93e8735bf6bd16083e328256b775082ba6331",
+      "size": 146142
+    },
+    {
+      "path": "assessment/assets/intro/pulse-teasing.webp",
+      "sha": "92cae998ed66200f84c2a5a68e83e4c6ea079056",
+      "size": 83778
+    },
+    {
+      "path": "assessment/assets/intro/pulse-unsettling.webp",
+      "sha": "4d580ffac08e928c4044dd6231bfb258e61328ec",
+      "size": 192472
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-1.webp",
+      "sha": "e55924aaec317cf5a0d271c290e2c6d6d8663b3d",
+      "size": 102440
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-2.webp",
+      "sha": "4c68636f2b8ae4a65fc862567be29bd9861649d4",
+      "size": 147754
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-3.webp",
+      "sha": "002a080188fbc4aa4a8ed90961fa247618bdafd2",
+      "size": 99890
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-4.webp",
+      "sha": "64ef340edc154dde7a3e4c1f4f3a540b2e01f9e9",
+      "size": 150052
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-5.webp",
+      "sha": "afd451d5722d4ddbcb47164ebd24a63506f83ef9",
+      "size": 106134
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-6.webp",
+      "sha": "a3416bd80c538cd070e651f5c84283d4f8950e52",
+      "size": 100578
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-7.webp",
+      "sha": "66caff387fe052e4563391c877fff60f786b3f50",
+      "size": 153920
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-8.webp",
+      "sha": "151b9628a7806939f1b87093658433afd7743997",
+      "size": 103460
+    },
+    {
+      "path": "assessment/assets/intro/station-beat-9.webp",
+      "sha": "9737704eabd7b46f8dccba580963cf3ea67c2541",
+      "size": 150296
+    },
+    {
+      "path": "assessment/assets/intro/station-echo-listening.png",
+      "sha": "fb42315e7eee6299df43f41f9857302ed09bc866",
+      "size": 786444
+    },
+    {
+      "path": "assessment/assets/intro/station-echo-listening.webp",
+      "sha": "db65e5458c4591338fa96cdf32bb1a7fa3df5521",
+      "size": 185058
+    },
+    {
+      "path": "assessment/assets/intro/station-echo-thoughtful.png",
+      "sha": "246d73a0064a0b19739c448711cbe2328beca80a",
+      "size": 786445
+    },
+    {
+      "path": "assessment/assets/intro/station-echo-thoughtful.webp",
+      "sha": "4c113fb6e810c4918a20266b2f1746304d8602bf",
+      "size": 183424
+    },
+    {
+      "path": "assessment/assets/intro/station-loop.mp4",
+      "sha": "942dc720f36a11d6a184f89bf854e375a69f7c80",
+      "size": 547854
+    },
+    {
+      "path": "assessment/assets/intro/station-pulse-listening.png",
+      "sha": "be6719eb93f142d31a62b2570d13454eb0db47d3",
+      "size": 786444
+    },
+    {
+      "path": "assessment/assets/intro/station-pulse-listening.webp",
+      "sha": "d32e6f2c6b406b31061b920efc6ec2323032b90d",
+      "size": 128348
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/14.webp",
+      "sha": "8ca4b85a8a81de3b63b7e49c1a7cf3efb91998c4",
+      "size": 152386
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/15.webp",
+      "sha": "e5b713146f126732b87a8fe846eaf99759133a51",
+      "size": 129432
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/16.webp",
+      "sha": "f5e40223f4c460f0026efe73b04fbc3a38c65401",
+      "size": 147588
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/17.webp",
+      "sha": "1a466db6ef9750972b2aa3cbb220f408223e538d",
+      "size": 148216
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/18.webp",
+      "sha": "d5c9f50df9ef3bc3bbfd16abfd365bdb36a87050",
+      "size": 167790
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/19.webp",
+      "sha": "63b6cd095a0006f5414481453db2769b3e3ec1ca",
+      "size": 160730
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/20.webp",
+      "sha": "9665ca5eb01029d160bd6daa156f60f55ed2081f",
+      "size": 109922
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/21.webp",
+      "sha": "c46a878b9722edd059620366ed7c1806a58f20c7",
+      "size": 99070
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/22.webp",
+      "sha": "732709bbc0b4d99c883f4f72c906284f4182f7f4",
+      "size": 101416
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/23.webp",
+      "sha": "b2c4e78aab35cff855d049b40e1a3cbf30ace9f4",
+      "size": 105850
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/24.webp",
+      "sha": "5a8671e0f10b16a4658fce71eefb64b5fc91f00e",
+      "size": 151748
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/25.webp",
+      "sha": "c59be162a9c08c546eab2fd87393342078c17e66",
+      "size": 180552
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/26.webp",
+      "sha": "a95f95e6806b808c0d15c6867628b68ce152a792",
+      "size": 143256
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/27.webp",
+      "sha": "323e96e389d23824bd8e997ad2579de49539e9b5",
+      "size": 200296
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/28.webp",
+      "sha": "385fcd228ba9019fa2cef72e4931b98f0102405c",
+      "size": 263118
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/29.webp",
+      "sha": "4a6eeeb580997744d5d138b650dc917af89cb754",
+      "size": 249420
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/30.webp",
+      "sha": "d5f23c21bb12f62a073d23a7304919dadc1e1b6b",
+      "size": 253724
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/31.webp",
+      "sha": "39319bdaf2444e08764b237fea073c1b6702fb46",
+      "size": 133112
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/32.webp",
+      "sha": "cbb1e628050b03be326a35c6919028a42e3fee70",
+      "size": 155746
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/33.webp",
+      "sha": "2b7739ebd8a5637df806cb40ed30b1c3502a0d1c",
+      "size": 140182
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/34.webp",
+      "sha": "792f96a9f62dbca36f3cff6d1f0809097749fde3",
+      "size": 95258
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/35.webp",
+      "sha": "f5b8564acf596955d432e966322fcc23745f49b5",
+      "size": 95460
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/36.webp",
+      "sha": "6160c32bd433b72a1bd1c4360e707943c4302e0d",
+      "size": 108208
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/part-1-scenes/37.webp",
+      "sha": "2331421d201e977f15769f761489934e77913b3b",
+      "size": 104802
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/01.webp",
+      "sha": "36a39052966e59cc8a6f947086af5ef287a9d633",
+      "size": 225068
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/02.webp",
+      "sha": "72160a4b75556bba7ee5a1316b1fc6d45ffbd1af",
+      "size": 173506
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/03.webp",
+      "sha": "52020d1f84c9463687849076d1e66c2817afa01e",
+      "size": 185716
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/04.webp",
+      "sha": "2fc98b22435e96890aef547734278ab5f8870ff3",
+      "size": 214962
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/05.webp",
+      "sha": "6f43a27a4ee264df6d4dd7e4055dc00a3594e956",
+      "size": 168358
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/06.webp",
+      "sha": "ad9d7d9f822f8ab02e592b835b016d790667189c",
+      "size": 202684
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/07.webp",
+      "sha": "884aa3812088b7de432d4f41dd446bc4b093a819",
+      "size": 403882
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/08.webp",
+      "sha": "bf2c664b57885e085fe14083b9f242a0ec74fbc6",
+      "size": 388688
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/09.webp",
+      "sha": "6a39dc053190c7ac97ee5a0c15c3297d2a2f1d42",
+      "size": 334742
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/10.webp",
+      "sha": "6be82b617ea623d028b583fe8491aafd26145ae0",
+      "size": 301998
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/11.webp",
+      "sha": "c09b61d99c9e78dfe4827480364da1dff8c01f26",
+      "size": 250746
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/12.webp",
+      "sha": "639ee7264ce3227304aa0550df87290d31bd7ef7",
+      "size": 234626
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/scenes/13.webp",
+      "sha": "13b1c60103803b2d26dbe4d4857f9de873e428f7",
+      "size": 228632
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/the-life-she-was-supposed-to-have-part-1.m4a",
+      "sha": "140b382292e42d673de374cc1b0078a81ce5c699",
+      "size": 1544294
+    },
+    {
+      "path": "assessment/assets/life-she-was-supposed-to-have/the-life-where-her-mother-stayed.m4a",
+      "sha": "93d2e3c0adb9518d4ef84482ac77e4cd45996984",
+      "size": 673922
+    },
+    {
+      "path": "assessment/assets/lillian-kitchen-arrives.webp",
+      "sha": "0890c1f2b41d4163341e872032dd6fa8c3020a60",
+      "size": 81190
+    },
+    {
+      "path": "assessment/assets/lillian-kitchen-speaks.webp",
+      "sha": "23145340386c31833e4bab3f5020f0b6060c0bfd",
+      "size": 91868
+    },
+    {
+      "path": "assessment/assets/lillian-view-departure.webp",
+      "sha": "7cdf95ebbcd7916e95bea337cd20cc409506ddc4",
+      "size": 72712
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/face-blink.webp",
+      "sha": "c4683fbcd7c574c8b55c91e6b8be7c3fb7fa2929",
+      "size": 3116
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/face-look-down.webp",
+      "sha": "28179b9dd2cea586427b7dcb8cfd515e17f81623",
+      "size": 6416
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-fallback.webp",
+      "sha": "5b91b2cc6e08aa0c671de2995608724db578a1a9",
+      "size": 48066
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-master-clean.webp",
+      "sha": "f23f5b30db7b4b9563d2ec54120f7ab0de40855a",
+      "size": 32054
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-arm-left.webp",
+      "sha": "6b046d2dcc29b4dee09c89fae57ebe78acd7f8cd",
+      "size": 19332
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-arm-right.webp",
+      "sha": "62681503caf7c94ff5f707ae66b55c0a6be0e93a",
+      "size": 20462
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-head.webp",
+      "sha": "2aa04ffd5b7cfe6e4c00999939b5965d4f7b43ac",
+      "size": 44604
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-leg-left.webp",
+      "sha": "553c5ad2391a8c61fb0945de1642b2444cad9d0a",
+      "size": 12688
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-leg-right.webp",
+      "sha": "2da62d0757763cc211a86ed1ef62088a585bef56",
+      "size": 12920
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-skirt.webp",
+      "sha": "00a7dcd38b802145c61ad1033d71bceff7f3cf5b",
+      "size": 37398
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-rig-torso.webp",
+      "sha": "794bed752ff1f02cbe2bc13d1890b87e277866e2",
+      "size": 42216
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/fayne-three-quarter.webp",
+      "sha": "1112933f1f25c8c22bdc2374ca32e1461267a964",
+      "size": 30198
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/mouth-smile.webp",
+      "sha": "d1035eafdd12e9c8ebcd98a4242e900d375ca280",
+      "size": 944
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/mouth-speak.webp",
+      "sha": "bbae0ec33dfcc3d145d444d11e488044a3478b94",
+      "size": 1564
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/pencil.webp",
+      "sha": "e394b282baffa849714cc2594637584073fc056c",
+      "size": 2652
+    },
+    {
+      "path": "assessment/assets/living-signals/fayne/sketchbook.webp",
+      "sha": "2cfc3aff20519487ba170079a4991c30788ef3c1",
+      "size": 7438
+    },
+    {
+      "path": "assessment/assets/main-povs/fayne.webp",
+      "sha": "59e5ca8e632b55c009dd4a73d2a1da1ac30bd84c",
+      "size": 260286
+    },
+    {
+      "path": "assessment/assets/main-povs/jake.webp",
+      "sha": "8604fe375b6ca1a7c6e4ffac8c2be6f6489bee22",
+      "size": 187520
+    },
+    {
+      "path": "assessment/assets/main-povs/milo.webp",
+      "sha": "25b2a67e2f4dddd3ffdfae8822bd4a48c7b80cb9",
+      "size": 122974
+    },
+    {
+      "path": "assessment/assets/main-povs/raxian.webp",
+      "sha": "676e361a6548c32855c8e70639a7f818786c82cf",
+      "size": 156526
+    },
+    {
+      "path": "assessment/assets/main-povs/raze.webp",
+      "sha": "bbc21bb0deb3a7af39340c6525b974363e6aa808",
+      "size": 167948
+    },
+    {
+      "path": "assessment/assets/main-povs/sable.webp",
+      "sha": "5aa75e407743a5ccc72ec91d27e6430fd9c32cf1",
+      "size": 135836
+    },
+    {
+      "path": "assessment/assets/measured-risk-corrupted-nice-beat.m4a",
+      "sha": "90b15f6de21805ec1e74244629cc9f72226e1b5a",
+      "size": 3061323
+    },
+    {
+      "path": "assessment/assets/measured-risk-instrumental-full.m4a",
+      "sha": "d45d11276a0e618964c6d2fa124fb05ec8dcc246",
+      "size": 2937891
+    },
+    {
+      "path": "assessment/assets/measured-risk-japanese.m4a",
+      "sha": "303b3ad7448ec8087c121db5816efbc8ffcc55ce",
+      "size": 1921399
+    },
+    {
+      "path": "assessment/assets/measured-risk-lofi.m4a",
+      "sha": "5db09dc38a2d79f9b883efed28b1ecca2fcab0cf",
+      "size": 2395269
+    },
+    {
+      "path": "assessment/assets/measured-risk-lullaby.m4a",
+      "sha": "8449f02f22133b51b2879c8d12b654fb8442acf1",
+      "size": 3082449
+    },
+    {
+      "path": "assessment/assets/measured-risk-original.m4a",
+      "sha": "1006183dccc48e918ac2d3ff9d6d429d76777581",
+      "size": 2934000
+    },
+    {
+      "path": "assessment/assets/measured-risk-vocals.m4a",
+      "sha": "7425c47f431b6066fe2c324e420b7ae00466faf0",
+      "size": 2097302
+    },
+    {
+      "path": "assessment/assets/obs02-cafe-breath.webp",
+      "sha": "a87d14fb6c1c8c968ed01dff282d800f804d56b1",
+      "size": 80184
+    },
+    {
+      "path": "assessment/assets/obs02-cafe-consider.webp",
+      "sha": "8b05b59307dc789c0422de38ef3dd4350b932560",
+      "size": 70496
+    },
+    {
+      "path": "assessment/assets/obs02-cafe-eyes-closed.webp",
+      "sha": "5e3d4561bf8ce3cfca4a79a6d4ab4208c0f71628",
+      "size": 70524
+    },
+    {
+      "path": "assessment/assets/obs02-cafe-sigh.webp",
+      "sha": "cfe21cdaf1c21b71ae76ba1b494819fb7d4dd04b",
+      "size": 75240
+    },
+    {
+      "path": "assessment/assets/obs02-cafe-turn.webp",
+      "sha": "39fbf5b574bd01bc324bff69c27418454b5d6850",
+      "size": 74964
+    },
+    {
+      "path": "assessment/assets/obs02-city-crossing.webp",
+      "sha": "5a7545052769a76de376d4acd38bcfae9a9a5770",
+      "size": 114192
+    },
+    {
+      "path": "assessment/assets/obs02-crossing-close.webp",
+      "sha": "9d14cd61f8302628397dc33fd6b5aa08554b828c",
+      "size": 75260
+    },
+    {
+      "path": "assessment/assets/obs02-eyes-close.webp",
+      "sha": "eb366c0fbdd86adb5555f83a4e1d40015252c6c6",
+      "size": 56860
+    },
+    {
+      "path": "assessment/assets/obs02-jake-door.webp",
+      "sha": "f2e50b26d77984a11f8e0f729db9ed19ed93659c",
+      "size": 81698
+    },
+    {
+      "path": "assessment/assets/obs02-rain-close.webp",
+      "sha": "0c8374ab6c3e499c48c66dec72e6183cc958e74c",
+      "size": 70768
+    },
+    {
+      "path": "assessment/assets/obs02-raxian-annoyed.webp",
+      "sha": "64622829f236b9fc48b95a73b89dcc94984a24cc",
+      "size": 83090
+    },
+    {
+      "path": "assessment/assets/obs02-residential-walk.webp",
+      "sha": "b22b779a3b2ff595723f20f6dab768347254ea47",
+      "size": 137588
+    },
+    {
+      "path": "assessment/assets/obs02-second-shift-wide.webp",
+      "sha": "f2162bc18a6e2e4f6e605991c139127f4335bd67",
+      "size": 129588
+    },
+    {
+      "path": "assessment/assets/perspective-records/ava.webp",
+      "sha": "31b701919c2e5f73913f41f2319cce0f2e188807",
+      "size": 92272
+    },
+    {
+      "path": "assessment/assets/perspective-records/bruce.webp",
+      "sha": "33faaa50acdf1fa50d7ce10d3b00878f5d19dd2d",
+      "size": 90216
+    },
+    {
+      "path": "assessment/assets/perspective-records/jake-entry.webp",
+      "sha": "9d6c16ea759e95aeb485de96676c75e790b11e9f",
+      "size": 168502
+    },
+    {
+      "path": "assessment/assets/perspective-records/jake-group-interactive.webp",
+      "sha": "7a95a99dbb5edf8a76068306a046378fc96e68de",
+      "size": 174826
+    },
+    {
+      "path": "assessment/assets/perspective-records/jake-group.webp",
+      "sha": "7a95a99dbb5edf8a76068306a046378fc96e68de",
+      "size": 174826
+    },
+    {
+      "path": "assessment/assets/perspective-records/kid-rax.webp",
+      "sha": "418ab523d3985ac11350b8a12b8a169194ce787a",
+      "size": 7524
+    },
+    {
+      "path": "assessment/assets/perspective-records/logan.webp",
+      "sha": "7291795db9cf2055239cb7e7fd2af13bfe5dfa0f",
+      "size": 92036
+    },
+    {
+      "path": "assessment/assets/perspective-records/marcus.webp",
+      "sha": "318b38adee25398189d6f6865665e87926a42f92",
+      "size": 107510
+    },
+    {
+      "path": "assessment/assets/perspective-records/tess.webp",
+      "sha": "4251138cb48d19a948f0efe18733ddb2fd89498c",
+      "size": 112622
+    },
+    {
+      "path": "assessment/assets/pilot-collision/00.webp",
+      "sha": "c8fce1573523b5adbf1b59243dcbef1d32f2b22d",
+      "size": 233504
+    },
+    {
+      "path": "assessment/assets/pilot-collision/01.webp",
+      "sha": "31b1a88df07b070a52403cebb884cab12ef766fa",
+      "size": 152826
+    },
+    {
+      "path": "assessment/assets/pilot-collision/02.webp",
+      "sha": "8f6e127623d78ec141c08b6ac5503867d5f5e07d",
+      "size": 125734
+    },
+    {
+      "path": "assessment/assets/pilot-collision/03.webp",
+      "sha": "b6c30c44a7e16d6d36eb9739f5227662c5d16695",
+      "size": 186896
+    },
+    {
+      "path": "assessment/assets/pilot-crack/01.webp",
+      "sha": "3f818352107bea9019eb0fd1b918a704edec0595",
+      "size": 102834
+    },
+    {
+      "path": "assessment/assets/pilot-crack/02.webp",
+      "sha": "7807b67e9c066710b213a224178ab0a5ffa2f7e4",
+      "size": 133118
+    },
+    {
+      "path": "assessment/assets/pilot-crack/03.webp",
+      "sha": "22dfcf671e8eb31c9b7cdc159b783a1a168b3c98",
+      "size": 200710
+    },
+    {
+      "path": "assessment/assets/pilot-crack/04.webp",
+      "sha": "317971c74becce4fb82cc894b6a40378d36a337f",
+      "size": 185008
+    },
+    {
+      "path": "assessment/assets/pilot-crack/05.webp",
+      "sha": "6843c009c4083a62042bbcab40a3f34755aa50b4",
+      "size": 247480
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-1.webp",
+      "sha": "8ae82bf53345ce0d3010879905f92677b17e1f1d",
+      "size": 94766
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-2.webp",
+      "sha": "98012671c9c83b7422bf9db8e9f13b3ad054f95e",
+      "size": 93012
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-3.webp",
+      "sha": "16e59f0449043ece1a01340046af93b8d76ed366",
+      "size": 79590
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-4.webp",
+      "sha": "d93b6a694a42735b85050bbb25d30f0f2eeb48fb",
+      "size": 76384
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-5.webp",
+      "sha": "a0fda888395b460da0c5a221848d7c21850e58fe",
+      "size": 78024
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-6.webp",
+      "sha": "24788aecec09cf139f1759b9a62766a27d176e6f",
+      "size": 90444
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/stable-7.webp",
+      "sha": "df49d2d2cb7da125bdda977d483d2ab9e2118d4e",
+      "size": 94626
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-1.webp",
+      "sha": "2fc5d84f339e29a795276281e38a52f42a1f1ed1",
+      "size": 107618
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-2.webp",
+      "sha": "560b0c34f9f00324358db0ecc57c864629fbb098",
+      "size": 105150
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-3.webp",
+      "sha": "3374907f2b81d14d49d638a80787775aad4a48e1",
+      "size": 105066
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-4.webp",
+      "sha": "b8a4b19c7b16374f6676a64d43c94ccd5fd74721",
+      "size": 91836
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-5.webp",
+      "sha": "4cf81091839bcf5a6b819ab6c85c1379ef887c9f",
+      "size": 87342
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-6.webp",
+      "sha": "790154d5ea977006c332ce8532f4c930a3947443",
+      "size": 95672
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-7.webp",
+      "sha": "9365ad16d9409bfe03bab1b2485c29e2a7d17f02",
+      "size": 84772
+    },
+    {
+      "path": "assessment/assets/pilot-prototype/xar-8.webp",
+      "sha": "b83400d3aa29cc81a284114cbb3e2cbfc6f2aabc",
+      "size": 87474
+    },
+    {
+      "path": "assessment/assets/presentable-enough/1.webp",
+      "sha": "14a191ac8dca867360818acb2df3394fdafb5f4d",
+      "size": 297842
+    },
+    {
+      "path": "assessment/assets/presentable-enough/11.webp",
+      "sha": "aeb34191abdbd92ca33f39de0ffa945bd5fd4d77",
+      "size": 415118
+    },
+    {
+      "path": "assessment/assets/presentable-enough/12.webp",
+      "sha": "290f72ca3b7ca908091f6ee144ee3dfca8254178",
+      "size": 437208
+    },
+    {
+      "path": "assessment/assets/presentable-enough/13.webp",
+      "sha": "fe2399c05ea4bf7a598c62fc2bad9ae562189d70",
+      "size": 403994
+    },
+    {
+      "path": "assessment/assets/presentable-enough/14.webp",
+      "sha": "7925a4b90c91676f3856633250324c5e915dcfc3",
+      "size": 447410
+    },
+    {
+      "path": "assessment/assets/presentable-enough/15.webp",
+      "sha": "d4c48d61c1b5113c284561a78de292a7ff4bfb11",
+      "size": 426718
+    },
+    {
+      "path": "assessment/assets/presentable-enough/16.webp",
+      "sha": "5e7cb5aa3b0bdced1124654953562528a1c96cd9",
+      "size": 401618
+    },
+    {
+      "path": "assessment/assets/presentable-enough/2.webp",
+      "sha": "b0d02c765397ee7fcb53ac056b21a8f3e36a25ee",
+      "size": 167164
+    },
+    {
+      "path": "assessment/assets/presentable-enough/3.webp",
+      "sha": "e2e067c22a0d010f13d6a01beda394be62d24c6f",
+      "size": 157868
+    },
+    {
+      "path": "assessment/assets/presentable-enough/4.webp",
+      "sha": "40644efa6fe1bdd0da4efc3f18b9cf19995eecf0",
+      "size": 120628
+    },
+    {
+      "path": "assessment/assets/presentable-enough/5.webp",
+      "sha": "6deb8be9221eb070f24719ce011a2174667337e7",
+      "size": 166368
+    },
+    {
+      "path": "assessment/assets/presentable-enough/6.webp",
+      "sha": "ff2d8db0209a4487aa9ae49d1e4f49ec90d5b6d6",
+      "size": 153240
+    },
+    {
+      "path": "assessment/assets/presentable-enough/7.webp",
+      "sha": "4ac97f2e1ddc35936f246af075cd1a38e3e368d5",
+      "size": 354448
+    },
+    {
+      "path": "assessment/assets/presentable-enough/8.webp",
+      "sha": "91751ba5904413ff941cbec9f73e0d16ad04dc5a",
+      "size": 200304
+    },
+    {
+      "path": "assessment/assets/presentable-enough/9.webp",
+      "sha": "6a68dab20e28a819da59c18b3bdfeb05155e2df9",
+      "size": 210130
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-20.js",
+      "sha": "55220143d0cd6beee45f71669f898f1759cd94df",
+      "size": 259875
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-21.js",
+      "sha": "c4dafe83253a4cbc5c184ee5625569b292d2148c",
+      "size": 241331
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-22.js",
+      "sha": "12e3c1090481ee33b2af6411353ad538fba8f6d5",
+      "size": 246715
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-23.js",
+      "sha": "de8685da64fe2e0ddbac3695901d1027b12759f9",
+      "size": 263155
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-24.js",
+      "sha": "09a50f0b26cadce56af1b7fec9f406af9d2db54c",
+      "size": 271083
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-30.js",
+      "sha": "47f81768de9ef450a2707e38065eb5017762fe91",
+      "size": 227795
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-32.js",
+      "sha": "9a78c52dd0fd51d058839657a5f8010723e379b0",
+      "size": 361187
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-33.js",
+      "sha": "be4a659005c0d5ab7ec3482e31fd7c2fc7e3a257",
+      "size": 148203
+    },
+    {
+      "path": "assessment/assets/presentable-enough/ending-34.js",
+      "sha": "30c591c2128d691731abaeb37541f4dbafbf42a8",
+      "size": 92667
+    },
+    {
+      "path": "assessment/assets/presentable-enough/i-was-quiet-first-instrumental.mp3",
+      "sha": "3581fa0cea05d0808e3a3f6a6ccdbf9d5cb117b8",
+      "size": 720726
+    },
+    {
+      "path": "assessment/assets/pulse-echo-characters.jpg",
+      "sha": "c3c573831c3ec0fe04ed9c933300f45f25a13899",
+      "size": 373370
+    },
+    {
+      "path": "assessment/assets/raxian-after-backpack.webp",
+      "sha": "497a51c76aaa935cd58af9c50276dbab195253eb",
+      "size": 36836
+    },
+    {
+      "path": "assessment/assets/raxian-alarm-hand.webp",
+      "sha": "96e557c6ac8af6f50d315b6a3a79456739101f8c",
+      "size": 20534
+    },
+    {
+      "path": "assessment/assets/raxian-annoyed.webp",
+      "sha": "c4b8f0929ae13a7d766f0888fa51274c8547d03a",
+      "size": 36550
+    },
+    {
+      "path": "assessment/assets/raxian-approaches-desk.webp",
+      "sha": "1282098d989e0c25c12923ac3525022fd2bd6023",
+      "size": 35830
+    },
+    {
+      "path": "assessment/assets/raxian-at-door-close.webp",
+      "sha": "46a81a8b7e2b2d2facb4a83f80ffced5f26e430d",
+      "size": 48320
+    },
+    {
+      "path": "assessment/assets/raxian-at-door-wide.webp",
+      "sha": "c3d5e846a46ae544fbb7030b455c9b8070fe2c9c",
+      "size": 26506
+    },
+    {
+      "path": "assessment/assets/raxian-at-wardrobe.webp",
+      "sha": "269bb6c19a3ed806f25f04ec7c975ff1f04b4fa6",
+      "size": 17758
+    },
+    {
+      "path": "assessment/assets/raxian-backpack-charger.webp",
+      "sha": "0d469dd795a281d7aba9f7aab10f955f329635d4",
+      "size": 42274
+    },
+    {
+      "path": "assessment/assets/raxian-backpack-closed.webp",
+      "sha": "8fc4b6f91c7cb4707fcc26fa9ad20437a976f9d5",
+      "size": 34920
+    },
+    {
+      "path": "assessment/assets/raxian-backpack-empty.webp",
+      "sha": "8aa91eb591ca0f2f58b092d82e5b7a4116354784",
+      "size": 41618
+    },
+    {
+      "path": "assessment/assets/raxian-backpack-notebook.webp",
+      "sha": "0d469dd795a281d7aba9f7aab10f955f329635d4",
+      "size": 42274
+    },
+    {
+      "path": "assessment/assets/raxian-backpack-pens.webp",
+      "sha": "0d469dd795a281d7aba9f7aab10f955f329635d4",
+      "size": 42274
+    },
+    {
+      "path": "assessment/assets/raxian-bathroom-mirror.webp",
+      "sha": "ff6d9ff5f48e1af1b14706297e6797eaa3cf4f69",
+      "size": 42544
+    },
+    {
+      "path": "assessment/assets/raxian-bedroom-awake.webp",
+      "sha": "62bd6e4a01001f472295bf1234053cefbc57c5d7",
+      "size": 45880
+    },
+    {
+      "path": "assessment/assets/raxian-bedroom-dark.webp",
+      "sha": "cd738159b187ae4e5ca34ff9455e28665d53714f",
+      "size": 49052
+    },
+    {
+      "path": "assessment/assets/raxian-bedroom-reverse-dressed.webp",
+      "sha": "0c9aaca9bddafdb4ebaf970e12b9015051c70ce4",
+      "size": 23740
+    },
+    {
+      "path": "assessment/assets/raxian-bedroom-reverse-pajamas.webp",
+      "sha": "ff7ceea4f6506c52aea98f260ed969be22f16c1f",
+      "size": 25084
+    },
+    {
+      "path": "assessment/assets/raxian-bedroom-reverse.webp",
+      "sha": "c3d5e846a46ae544fbb7030b455c9b8070fe2c9c",
+      "size": 26506
+    },
+    {
+      "path": "assessment/assets/raxian-brushing.webp",
+      "sha": "0c0aab1d3416de70ec608495a5727e47c8097c4b",
+      "size": 42946
+    },
+    {
+      "path": "assessment/assets/raxian-child-eyes-down.webp",
+      "sha": "fefe1f5ec35234a45da57fd077a7a68325cbb84a",
+      "size": 26026
+    },
+    {
+      "path": "assessment/assets/raxian-child-looks-up.webp",
+      "sha": "2a4702c5c274e76e9cf7e48ad951a182abbf21e4",
+      "size": 33560
+    },
+    {
+      "path": "assessment/assets/raxian-clock-thought.webp",
+      "sha": "e8e25e55a2463a13ac8d227ba3576a72ad0577cd",
+      "size": 40392
+    },
+    {
+      "path": "assessment/assets/raxian-curtain-open.webp",
+      "sha": "35d546a38f7aa8c25841e042d1c81c52aee7bda1",
+      "size": 40720
+    },
+    {
+      "path": "assessment/assets/raxian-desk-choice.webp",
+      "sha": "e49ad78c4bbaff6700776c68224c80744d2bceaa",
+      "size": 35766
+    },
+    {
+      "path": "assessment/assets/raxian-dressed-wardrobe.webp",
+      "sha": "3f421788e634724d3d8afcac34743c74e1e9bd42",
+      "size": 40454
+    },
+    {
+      "path": "assessment/assets/raxian-ego-watch.webp",
+      "sha": "24b0def7705dd1a0e00e476c521dca5ecb1d18c9",
+      "size": 27110
+    },
+    {
+      "path": "assessment/assets/raxian-eyes-closed.webp",
+      "sha": "4af07fd276163d21d43b16bf77bd9bbcabddd01d",
+      "size": 51492
+    },
+    {
+      "path": "assessment/assets/raxian-eyes-open.webp",
+      "sha": "065365b26c45a74afa8102df6c6543b0d0d7d4a9",
+      "size": 39578
+    },
+    {
+      "path": "assessment/assets/raxian-family-frame.webp",
+      "sha": "1df6e3ee248c43490246684cde7b023a66456fb6",
+      "size": 60632
+    },
+    {
+      "path": "assessment/assets/raxian-first-reveal.webp",
+      "sha": "ad4fe74b9e6efaeb719ca29029473111a16b62fc",
+      "size": 33678
+    },
+    {
+      "path": "assessment/assets/raxian-five-more-minutes.webp",
+      "sha": "a1cb0657ba7601d929231e241f5faf35f1197e93",
+      "size": 39060
+    },
+    {
+      "path": "assessment/assets/raxian-gathering-energy.webp",
+      "sha": "5b95db71711333f292431e9bd8fd2fc67403b413",
+      "size": 32250
+    },
+    {
+      "path": "assessment/assets/raxian-gray-weather.webp",
+      "sha": "3a65e6df252794f5eb45115f62b0bf144db13076",
+      "size": 35528
+    },
+    {
+      "path": "assessment/assets/raxian-hallway-departure.webp",
+      "sha": "e62c1a71facdf24c105e576b2dc39dbb2a0e4e9f",
+      "size": 40976
+    },
+    {
+      "path": "assessment/assets/raxian-hallway-reply.webp",
+      "sha": "7db8150d79a454d99b519a84449926a364d947bf",
+      "size": 45062
+    },
+    {
+      "path": "assessment/assets/raxian-hallway-standing.webp",
+      "sha": "abaa895f81188919788ea161fa6f6a1913d86de2",
+      "size": 83054
+    },
+    {
+      "path": "assessment/assets/raxian-hallway-turned.webp",
+      "sha": "128aabceefa07f643be058d15d01444a532308c6",
+      "size": 75068
+    },
+    {
+      "path": "assessment/assets/raxian-hidden-charger.webp",
+      "sha": "c94a90c437666092aedee8ee1e1fb65bf647c798",
+      "size": 42218
+    },
+    {
+      "path": "assessment/assets/raxian-hidden-desk-pen.webp",
+      "sha": "86d98ddaa3b55909223fa524d3f66bfd48fdfb90",
+      "size": 23058
+    },
+    {
+      "path": "assessment/assets/raxian-hidden-notebook.webp",
+      "sha": "0f7764b78807f9b258073ff8baf7831548cbf4f1",
+      "size": 32316
+    },
+    {
+      "path": "assessment/assets/raxian-hidden-shelf-pen.webp",
+      "sha": "382dc2f576c6189d1c00c45a844b3c1f4fa99984",
+      "size": 48568
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-child-close.webp",
+      "sha": "de7c1b2037dcc2ec428a4fc3e1d361ce0f333690",
+      "size": 36658
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-child-wide.webp",
+      "sha": "0008d27f9f43c9f855ea3cf79861f53db485f297",
+      "size": 61078
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-eyes-closed.webp",
+      "sha": "45b665a4b6a80946636376ea55db19a11f6419e7",
+      "size": 66224
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-fridge-look.webp",
+      "sha": "7e4a6a78825915d91c6344dbe68056b7f356808a",
+      "size": 64492
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-fridge-open.webp",
+      "sha": "25a2ad594b993ccccfaf6cac07963332992afda8",
+      "size": 47886
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-look-back.webp",
+      "sha": "0b12898ef5e8611c3160f9f8a4f7480fafe4cef3",
+      "size": 45664
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-oat-drink.webp",
+      "sha": "2771d43c6df9b032bebe0b39f30d38c673197395",
+      "size": 50848
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-return.webp",
+      "sha": "cd09b32e255eb1bca16df518a8d7c299844e55eb",
+      "size": 59648
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-vase-return.webp",
+      "sha": "42817b81f839a9275832377ed17618ee6dff9fbf",
+      "size": 68478
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-vase.webp",
+      "sha": "350461752d4746fc080da266b16d96a228c1133f",
+      "size": 63882
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-wide.webp",
+      "sha": "66eb5fe83161d4c946822d056260087a75569b8d",
+      "size": 59770
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-window-behind.webp",
+      "sha": "5562d398759529c1f7f24e780a47ff61524ee842",
+      "size": 32482
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-window-closed.webp",
+      "sha": "9073e53e81ffe474c47190794dd266e8099183fe",
+      "size": 58512
+    },
+    {
+      "path": "assessment/assets/raxian-kitchen-window.webp",
+      "sha": "d0cb1a30e4bc246b2a705852e3ab9c7b9f29e8fa",
+      "size": 54406
+    },
+    {
+      "path": "assessment/assets/raxian-late-0646.webp",
+      "sha": "9dc4abe95c219746bd37c535b3ca26c23e68550e",
+      "size": 44800
+    },
+    {
+      "path": "assessment/assets/raxian-late-0647.webp",
+      "sha": "945a2368a62b4cdd1151618ec274b0f08a4cea67",
+      "size": 43746
+    },
+    {
+      "path": "assessment/assets/raxian-late-0650.webp",
+      "sha": "ed9f56087d158e656b1f60a3c9f39ccded9fefe6",
+      "size": 48642
+    },
+    {
+      "path": "assessment/assets/raxian-late-0750-closed.webp",
+      "sha": "f37bfaccef66e0806232c1a801a35ad7cce5cffe",
+      "size": 38476
+    },
+    {
+      "path": "assessment/assets/raxian-late-0750-wide.webp",
+      "sha": "dd0c8a59513e6159a98f19f7115e29b86f77fc6a",
+      "size": 44366
+    },
+    {
+      "path": "assessment/assets/raxian-late-0751-awake.webp",
+      "sha": "b069dd224c0fa807b1f51d799001c926a64df046",
+      "size": 34848
+    },
+    {
+      "path": "assessment/assets/raxian-late-0752-clock.webp",
+      "sha": "015acb3d526e97487ea6a670ce3a6753242fdd27",
+      "size": 37106
+    },
+    {
+      "path": "assessment/assets/raxian-late-0752-sigh.webp",
+      "sha": "fea9733b15c0cd2dc2a5d64333e16e9b7d274a75",
+      "size": 28370
+    },
+    {
+      "path": "assessment/assets/raxian-late-0753-closed.webp",
+      "sha": "b0896078dc26381695c6373ae865d0f8b87347d0",
+      "size": 36924
+    },
+    {
+      "path": "assessment/assets/raxian-late-0754-closed.webp",
+      "sha": "1df08f7962b027348d12fb80ad7f6b4ea07ca017",
+      "size": 36758
+    },
+    {
+      "path": "assessment/assets/raxian-late-0755-awake.webp",
+      "sha": "09135e76650a8e73c0f4d2468acfffedc5644df1",
+      "size": 46120
+    },
+    {
+      "path": "assessment/assets/raxian-late-0755-sitting.webp",
+      "sha": "b5e682105906874d33818065b333fe813db099ab",
+      "size": 46846
+    },
+    {
+      "path": "assessment/assets/raxian-late-0755-standing.webp",
+      "sha": "f3d62d158006cf5bdd122f47868c4b12deb59971",
+      "size": 39940
+    },
+    {
+      "path": "assessment/assets/raxian-living-after-tv.webp",
+      "sha": "1df89ad869b03336277a40706695a0fde3955d89",
+      "size": 63232
+    },
+    {
+      "path": "assessment/assets/raxian-living-entry.webp",
+      "sha": "62c16f6241a489466880480483f55289289581f7",
+      "size": 37936
+    },
+    {
+      "path": "assessment/assets/raxian-living-remote.webp",
+      "sha": "10f2fa9a3a5362938cf7edb8967812c6dca7c6e8",
+      "size": 64270
+    },
+    {
+      "path": "assessment/assets/raxian-living-table-close.webp",
+      "sha": "fd4fe28c9465429e45889c706b714fb33c64f2fd",
+      "size": 44128
+    },
+    {
+      "path": "assessment/assets/raxian-living-table-look.webp",
+      "sha": "bf8fdf23b0dba4cae70ba8461ddd24b573c4db15",
+      "size": 67174
+    },
+    {
+      "path": "assessment/assets/raxian-living-tv-look.webp",
+      "sha": "a31e82f0c2d6cf97f0b1c1bf2229e61b5c3e28a0",
+      "size": 59394
+    },
+    {
+      "path": "assessment/assets/raxian-living-tv-off.webp",
+      "sha": "be44c719415061a8abada5983d66fc09e27bbfc5",
+      "size": 77448
+    },
+    {
+      "path": "assessment/assets/raxian-living-tv-on.webp",
+      "sha": "380ea57690b3d4a09f0289a0ccda36cc38ff0a32",
+      "size": 68324
+    },
+    {
+      "path": "assessment/assets/raxian-living-wide.webp",
+      "sha": "3d7facdf70e626c4fe6c0ee1273271293861a588",
+      "size": 64632
+    },
+    {
+      "path": "assessment/assets/raxian-medals-not-enough.webp",
+      "sha": "497a51c76aaa935cd58af9c50276dbab195253eb",
+      "size": 36836
+    },
+    {
+      "path": "assessment/assets/raxian-medals-walk-away.webp",
+      "sha": "876bd26188e9dd02f87907c44b123d2017553aeb",
+      "size": 35708
+    },
+    {
+      "path": "assessment/assets/raxian-playground-wide.webp",
+      "sha": "a2719bc6383f11998d674a7a735072e5f5ae6344",
+      "size": 25024
+    },
+    {
+      "path": "assessment/assets/raxian-search-desk.webp",
+      "sha": "1282098d989e0c25c12923ac3525022fd2bd6023",
+      "size": 35830
+    },
+    {
+      "path": "assessment/assets/raxian-search-nightstand.webp",
+      "sha": "afd9690abc063327d9685f2fd141cdbfae689821",
+      "size": 46170
+    },
+    {
+      "path": "assessment/assets/raxian-search-shelf.webp",
+      "sha": "520ccfca2106c036e50b1bb1da9115b89b4aa314",
+      "size": 47024
+    },
+    {
+      "path": "assessment/assets/raxian-seated-computer.webp",
+      "sha": "45923f7b10248b68fc2928bc0a0167a936952ba7",
+      "size": 32740
+    },
+    {
+      "path": "assessment/assets/raxian-shelf-annoyed.webp",
+      "sha": "e07c74b5ba1c8b35b4249b4313bd7fe695233b3d",
+      "size": 26364
+    },
+    {
+      "path": "assessment/assets/raxian-sigh.webp",
+      "sha": "cdda0893858ef6c0e5b09f899d55549bd7c03be0",
+      "size": 32168
+    },
+    {
+      "path": "assessment/assets/raxian-sitting-up.webp",
+      "sha": "843d46e1d4d1029588c43a37326b7e9bac0fc217",
+      "size": 44360
+    },
+    {
+      "path": "assessment/assets/raxian-standing.webp",
+      "sha": "9e8b1b9cf36e40bda72a0b98b0ef79cb21c3be5a",
+      "size": 36884
+    },
+    {
+      "path": "assessment/assets/raxian-toothbrush-held.webp",
+      "sha": "57818372207dd0e8ba73ea7cc3c0d4f123be037d",
+      "size": 44106
+    },
+    {
+      "path": "assessment/assets/raxian-turns-to-shelf.webp",
+      "sha": "6838efb7bed42d90ba88df7147f3a9e418d26e44",
+      "size": 48050
+    },
+    {
+      "path": "assessment/assets/raxian-wake-choice.webp",
+      "sha": "371e512394686de435f2d14bdecaeb5f49a446e7",
+      "size": 36158
+    },
+    {
+      "path": "assessment/assets/raxian-wardrobe-open.webp",
+      "sha": "73d3d6ea75cc19697ffeea025abc3113bd29d608",
+      "size": 29212
+    },
+    {
+      "path": "assessment/assets/raylene/arrival.png",
+      "sha": "c69b36b0fd4b76588d5f17072734e429c3f0b151",
+      "size": 643856
+    },
+    {
+      "path": "assessment/assets/raylene/authority.png",
+      "sha": "98c6978ec2be4a1229b43ad491bdab68ca9315d4",
+      "size": 789119
+    },
+    {
+      "path": "assessment/assets/raylene/background.webp",
+      "sha": "4fa2adf2c5013011bcd3de8c7b076ab7175d8610",
+      "size": 2001320
+    },
+    {
+      "path": "assessment/assets/raylene/concern.png",
+      "sha": "c153d9031848465e3bc3fc57a6a5152cbda947c3",
+      "size": 860112
+    },
+    {
+      "path": "assessment/assets/raylene/farewell.png",
+      "sha": "dfe9fb3da46b7fe36c72c0ff50efb1f324f68ad0",
+      "size": 1322177
+    },
+    {
+      "path": "assessment/assets/raylene/observation.png",
+      "sha": "d08fa5bcc9625faaf28e7d8a4c2e43b119af00d0",
+      "size": 727307
+    },
+    {
+      "path": "assessment/assets/raylene/playful.png",
+      "sha": "bfad816fd00139e6d0a3c31da4ee227f4318e504",
+      "size": 759903
+    },
+    {
+      "path": "assessment/assets/raylene/recognition.png",
+      "sha": "255a517badc084b1e50529e9e66706ea4288951a",
+      "size": 615535
+    },
+    {
+      "path": "assessment/assets/rival-povs/ben.webp",
+      "sha": "ab198c6c8429873a8ed83d800d7bb7c7db4600cc",
+      "size": 180922
+    },
+    {
+      "path": "assessment/assets/rival-povs/gus.webp",
+      "sha": "1044e2367979a3316efaf73d86cf1c2ae4bd60cb",
+      "size": 246342
+    },
+    {
+      "path": "assessment/assets/rival-povs/stanley.webp",
+      "sha": "b831bdc97112d54cbcda1dbfaa2d8bd865541373",
+      "size": 200650
+    },
+    {
+      "path": "assessment/assets/secondary-povs/ava.webp",
+      "sha": "f3cade248c4d75ab4389506231ef5e0299dbe700",
+      "size": 140890
+    },
+    {
+      "path": "assessment/assets/secondary-povs/bruce.webp",
+      "sha": "8afd08e0eec1db63d3102a783e2a1cd75f56085f",
+      "size": 147814
+    },
+    {
+      "path": "assessment/assets/secondary-povs/logan.webp",
+      "sha": "6f9f08c38a8baa254e1658e61b25422a5c32f4df",
+      "size": 96944
+    },
+    {
+      "path": "assessment/assets/secondary-povs/marcus.webp",
+      "sha": "fde7770bf971f755a1a1e2c3ac9e2d3a912eb732",
+      "size": 166806
+    },
+    {
+      "path": "assessment/assets/secondary-povs/tess.webp",
+      "sha": "c6e2126cff36f0ce2b248e3266af2b6b48e11d0e",
+      "size": 228846
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/bg-both.webp",
+      "sha": "dec0b2a646ec711097697ce6ec7564c9fb4604d6",
+      "size": 212768
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/bg-raxian.webp",
+      "sha": "a89a374f0a2878702ae33e2c5d766d000d0c4330",
+      "size": 220612
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/bg-sable.webp",
+      "sha": "88f688d5226a4dd5fd53ef1d79a2a37ca2cf3d92",
+      "size": 219838
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/chorus.wav",
+      "sha": "fbfe9bae3a1213bec4e1fcc2df14d2317a58aef6",
+      "size": 4673452
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/pair-close.webp",
+      "sha": "16a2fc41630ff4291af1c83bbb840faa55e3afdd",
+      "size": 168450
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/pair-wide.webp",
+      "sha": "024a2c9a285e71d5ac949e7d875ad97b1e9642ee",
+      "size": 114312
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/raxian-looks-away.webp",
+      "sha": "db357d3c070fafe95acf8cc22845600b99d0330c",
+      "size": 115580
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/raxian-realizes.webp",
+      "sha": "7a2e20777e71a881eae9be24a16cd7d369ffb802",
+      "size": 124408
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/sable-profile.webp",
+      "sha": "1a7a00817d8b32b01a623dc08034fce53ee2c276",
+      "size": 168528
+    },
+    {
+      "path": "assessment/assets/static-between-us-cinematic/sable-turn.webp",
+      "sha": "f6de59978f3d3ef2df5da01465036d872da3435d",
+      "size": 167178
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-01.webp",
+      "sha": "81f6de0c86fe7c9e7724abd71ca57b4fcede8d66",
+      "size": 171930
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-02.webp",
+      "sha": "f1668eaf100e6ef842c09908306f0f9b4c1915d0",
+      "size": 190978
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-03.webp",
+      "sha": "776dc4b28f71f6c67c7676d46129dd941ac442c1",
+      "size": 143870
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-04.webp",
+      "sha": "78a674704284bbb075844626b7b4e8f30a4e8bed",
+      "size": 121796
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-05.webp",
+      "sha": "a1c8dee77b641a4d0dcb78d27febc7c609f619f5",
+      "size": 156112
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-06.webp",
+      "sha": "173e8bbe89ca30a75cda988c44d35465a1c06aed",
+      "size": 124586
+    },
+    {
+      "path": "assessment/assets/static-between-us-raxian-scenes/scene-07.webp",
+      "sha": "6f9a55844531d49eb3d2d5afdc482e57f11bd40f",
+      "size": 141146
+    },
+    {
+      "path": "assessment/assets/static-between-us-scenes/fayne.webp",
+      "sha": "208d7db268994b960a1fd36fd9c0a7087d56a18c",
+      "size": 118540
+    },
+    {
+      "path": "assessment/assets/static-between-us-scenes/jake.webp",
+      "sha": "f9f16689928156cab165bc82e905e3cf70b451ae",
+      "size": 98992
+    },
+    {
+      "path": "assessment/assets/static-between-us-scenes/sable-close.webp",
+      "sha": "65d8e48699340944420da874918ca0dbe697e33c",
+      "size": 121610
+    },
+    {
+      "path": "assessment/assets/static-between-us-scenes/sable-wide.webp",
+      "sha": "77fcc100d696466d9af5a06f29df05ca6c13a9e0",
+      "size": 110536
+    },
+    {
+      "path": "assessment/assets/street-ava-logan.webp",
+      "sha": "7ccd66cc70200b68a093f008e309fc87e11f8358",
+      "size": 78426
+    },
+    {
+      "path": "assessment/assets/street-bruce-raxian.webp",
+      "sha": "02ff135609af4d930dae621328c71e5f70f5a9d7",
+      "size": 110366
+    },
+    {
+      "path": "assessment/assets/street-group-ahead.webp",
+      "sha": "6ae8fcacae190260bfce26bb48efd05a8548662c",
+      "size": 88372
+    },
+    {
+      "path": "assessment/assets/street-jake-logan.webp",
+      "sha": "08e08b73a82f84d39073bee806aa78c667ad5faf",
+      "size": 117880
+    },
+    {
+      "path": "assessment/assets/street-jake-reaches.webp",
+      "sha": "f232b179b8515d37fffb03795c3a2b8d6c904923",
+      "size": 100822
+    },
+    {
+      "path": "assessment/assets/street-marcus-tess.webp",
+      "sha": "183e0d9b8ad99ce6877b09e7b889b73b3bc72a9b",
+      "size": 72532
+    },
+    {
+      "path": "assessment/assets/street-raxian-following.webp",
+      "sha": "a150067e4c475a560f140a24f4d9a84080fcf0c5",
+      "size": 110500
+    },
+    {
+      "path": "assessment/assets/street-raxian-reflective.webp",
+      "sha": "1769dda40a235e9b02ad6e7a7faa1f5b0d9909fa",
+      "size": 96686
+    },
+    {
+      "path": "assessment/assets/street-raxian-stare.webp",
+      "sha": "8cd553bf59df237594c3825ec6e1f3076519aa66",
+      "size": 89906
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/01.webp",
+      "sha": "05dabcd090d3bf9cabb7fdca36839de646d3b537",
+      "size": 68384
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/02.webp",
+      "sha": "2e18a4eeb185c04d05790b5342c467d6e542e996",
+      "size": 74144
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/03.webp",
+      "sha": "da7e6f7134e8db85b75962a8c43ac579f64d1d09",
+      "size": 88790
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/04.webp",
+      "sha": "77acd9c1efa2d3f7c4be6206f9f366c0ee89a619",
+      "size": 154284
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/05.webp",
+      "sha": "1495777007f6dfb2730fe574d5ae034a7c4fbe45",
+      "size": 180190
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/06.webp",
+      "sha": "bcf7a380f2990ab3283807fa0c5e93459f245d0d",
+      "size": 206706
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/07.webp",
+      "sha": "2c41c5e32f79009bffebc3a6f3bc985aab97da35",
+      "size": 137782
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/08.webp",
+      "sha": "8886fd70b30776904b6b4912adb2ce0f702b4565",
+      "size": 154386
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/09.webp",
+      "sha": "e22e078a4831724d0fa3c6be6beb421891f37c9d",
+      "size": 140858
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/10.webp",
+      "sha": "6d03cdbb8b6cec4ef8cff427e4195973bb42bd43",
+      "size": 144458
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/11.webp",
+      "sha": "8c0bfd7742971ef357f2867d088113ce7b0edb09",
+      "size": 147270
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/12.webp",
+      "sha": "2cd82f69b1f4ba06b47129d7608a91a68af06d72",
+      "size": 48878
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/13.webp",
+      "sha": "dc9e5303c6ca86ec8b92bb331e868b0d44e4d2f1",
+      "size": 57954
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/14.webp",
+      "sha": "21940f634825a42fad6dff2192662088ba8a9f3d",
+      "size": 90822
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/15.webp",
+      "sha": "f76e398d76ea608368daaf5258fcaaad12fb986a",
+      "size": 82546
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/16.webp",
+      "sha": "ef01925853310ea2f66ae461dc8f05d251ef6af7",
+      "size": 66420
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/17.webp",
+      "sha": "d7731bcc70db46010579b95420b2b655274353a7",
+      "size": 51978
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/cover.webp",
+      "sha": "05dabcd090d3bf9cabb7fdca36839de646d3b537",
+      "size": 68384
+    },
+    {
+      "path": "assessment/assets/to-save-the-light/to-save-the-light.mp3",
+      "sha": "f5473cc2539b45c7d3df4dfd6df1e851f2c957bf",
+      "size": 453270
+    },
+    {
+      "path": "assessment/assets/unknown-interesting.m4a",
+      "sha": "0fa0c795282c503a4ef80b25875ff5e2f6349cd8",
+      "size": 21941
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/01.webp",
+      "sha": "bbe6e298215c20fbe0560aa3b4b8509588381993",
+      "size": 104652
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/02.webp",
+      "sha": "565ae2d6f40d180123b73b9921ce72ade48502d5",
+      "size": 142428
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/03.webp",
+      "sha": "a3c9242c14ee0ee09960f3d997460aec916a5a5d",
+      "size": 136898
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/04.webp",
+      "sha": "31ceca5bdf30c163454c28d329c32efe97d79066",
+      "size": 161634
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/05.webp",
+      "sha": "31147101492c805319b03bd83ef4c16aef84b574",
+      "size": 132876
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/06.webp",
+      "sha": "9ee8e60ad85fcdafb0dc33548832c39ddadb3547",
+      "size": 100046
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/07.webp",
+      "sha": "3fcf7d08912937fdb13f0ff15cc0f01bace8a3ae",
+      "size": 82844
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/08.webp",
+      "sha": "d26a3a97e8e81aacc7acbc8746b674057c17dfdf",
+      "size": 68234
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/09.webp",
+      "sha": "4ad155d2f75d2cadba95f1501b0fdcb5936c7adb",
+      "size": 79028
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/10.webp",
+      "sha": "6f46b12b63f1fddf1647441d6465d31b78499385",
+      "size": 130340
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/11.webp",
+      "sha": "7d9e94d1826e082cc56d0d69a649dfe58b2afc74",
+      "size": 128142
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/12.webp",
+      "sha": "fd60e9381515e79b6e0e82a7a73f2d478f32a5b4",
+      "size": 88960
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/cover.webp",
+      "sha": "b4a02711abfe513eff866c7b2ef2d2e7d67a5a71",
+      "size": 75866
+    },
+    {
+      "path": "assessment/assets/you-turned-my-child-into-a-frame/you-turned-my-child-into-a-frame.mp3",
+      "sha": "ad6736b54379e670709c46c8911c0429f66b959a",
+      "size": 518550
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus01-background.webp",
+      "sha": "ed22183178d9dfb54abf493203da3d5db65b8f86",
+      "size": 187932
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus01-characters.webp",
+      "sha": "b082e16b859c8e14cbed55f98edbd0b76f797678",
+      "size": 87408
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus01-poster.webp",
+      "sha": "a2a500870b9c482b90c8f9a431090ff4ec1c1987",
+      "size": 86814
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus02-background.webp",
+      "sha": "8ec2bf2c2a61c61f5dfb612014500c06c7d43438",
+      "size": 64396
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus02-characters.webp",
+      "sha": "8d966f08604c6ce7d8610975e8d1678c76204933",
+      "size": 65338
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus02-poster.webp",
+      "sha": "e9e6de4f19ffa4cc15e7da5628e335ee235ef227",
+      "size": 78418
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus03-background.webp",
+      "sha": "0fef6e2236e14318d39fb7cae8441baa18978ffb",
+      "size": 81500
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus03-characters.webp",
+      "sha": "d8f652674c919953650fdab17e474f291636a0f8",
+      "size": 70868
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus03-poster.webp",
+      "sha": "5120b422a92b1957b07a26ba459c39a46eaa12f1",
+      "size": 65502
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus04-background.webp",
+      "sha": "b67b9b02253c02157a9e4610a330337a0176aacf",
+      "size": 51054
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus04-characters.webp",
+      "sha": "ddff21b27d024734a38426e767f4abbb5120326f",
+      "size": 122416
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus04-poster.webp",
+      "sha": "52db6600bbdf4c37fc9310e7d5b15ae3dc09b00b",
+      "size": 83388
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus05-background.webp",
+      "sha": "e2f085c6940bf8fa84cfacc43aa8d7b13833a3ad",
+      "size": 79972
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus05-characters.webp",
+      "sha": "cfc47c6423fd0b5bb809cfb6c284562e8004bc8d",
+      "size": 131752
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus05-poster.webp",
+      "sha": "4ec5a084a27123b10b2360747d0783318d046064",
+      "size": 101546
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus06-background.webp",
+      "sha": "20eff66b0197a47009d0e4966f7edce49db9d75c",
+      "size": 84326
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus06-characters.webp",
+      "sha": "7ecd57884d822b5505aab486d30b55792f6b4bd5",
+      "size": 151032
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus06-poster.webp",
+      "sha": "c01ead2440336875d3739d8e6a4960fe851f3061",
+      "size": 138182
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus07-background.webp",
+      "sha": "36b2c0a1cdd8dd087bc9545a9e8d47ba10a66206",
+      "size": 68984
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus07-characters.webp",
+      "sha": "f1e1c03eb93ac88faf301356738c398ad7caef26",
+      "size": 98004
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus07-poster.webp",
+      "sha": "f6931add040998b22a6b4a7bf166b9d41de40f73",
+      "size": 79736
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus08-background.webp",
+      "sha": "fa244b766d885bf6a3072a7648e3d927a7968a59",
+      "size": 153044
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus08-characters.webp",
+      "sha": "4885ec347be5436fd1578056e7803c0a53bcb3c8",
+      "size": 182166
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus08-poster.webp",
+      "sha": "4bc455d05c63a456763f0ef202325a5d8e4ee6cf",
+      "size": 120630
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus09-background.webp",
+      "sha": "1766f4db03223e177751229153aae0721a74a609",
+      "size": 134418
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus09-characters.webp",
+      "sha": "d5f93df3828511798d979d946d2ba711fc1890ae",
+      "size": 131108
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus09-poster.webp",
+      "sha": "df47c300fbbf4f16601f097421d53bdd821e525c",
+      "size": 79356
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus10-background.webp",
+      "sha": "ae4fa12a468e87c7f34455c6e81e79e86d926e26",
+      "size": 110866
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus10-characters.webp",
+      "sha": "3725488645c29786d1574ff781cfd558299bed2b",
+      "size": 153094
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus10-poster.webp",
+      "sha": "415462e13d5ffb6b43e68742d5f05a7a400bef77",
+      "size": 95102
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus11-background.webp",
+      "sha": "d8c570e7f04f9fe4b32a796e31f53cc4cb65f964",
+      "size": 209416
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus11-characters.webp",
+      "sha": "026e390dacdfbf27a1c259295447dd4fc7fb866e",
+      "size": 57244
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus11-poster.webp",
+      "sha": "e55778a6dc6318d0b12d225cd2139d69bb9d0874",
+      "size": 83058
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus12-background.webp",
+      "sha": "aa982bd6eb12599e5bac425ea37ad4f4c9a4cbd1",
+      "size": 79646
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus12-characters.webp",
+      "sha": "d24e13bd78f67e532c7473499711080d33a71a2e",
+      "size": 107906
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus12-poster.webp",
+      "sha": "ce51dca9aa5040bbdcf2c577c70e3c6b3be504cd",
+      "size": 123308
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus13-background.webp",
+      "sha": "e5f2897c6572dbb7ec3cdebfba3a8172b18ce7b1",
+      "size": 50148
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus13-characters.webp",
+      "sha": "58b613172c86edf68da907e88f23b551227c6d49",
+      "size": 74748
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus13-poster.webp",
+      "sha": "3c0262843b91fe1a69d1aedd1a68da4a0698f3d4",
+      "size": 56508
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus14-background.webp",
+      "sha": "0f4b93f7f7d9582eb9a3262e70eec93c1646ea68",
+      "size": 117336
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus14-characters.webp",
+      "sha": "c37495aee96544717f7aa92fc23bdfa32271c90a",
+      "size": 197064
+    },
+    {
+      "path": "assessment/assets/youll-understand-someday/art/yus14-poster.webp",
+      "sha": "a6bcb0777e3c383f799ebfc9903d7bb654b9d517",
+      "size": 167104
+    },
+    {
+      "path": "assessment/awakened-gateway.css",
+      "sha": "4f1476e331dfc2e064f38cbce3eaf66480a59be3",
+      "size": 14818
+    },
+    {
+      "path": "assessment/city.css",
+      "sha": "31ffa7fbc3164f176d51b15c3f1d100faf45fe9a",
+      "size": 5926
+    },
+    {
+      "path": "assessment/city.js",
+      "sha": "7c6c3474b819db9b00bfd86bf7a1b3698f074bf3",
+      "size": 8980
+    },
+    {
+      "path": "assessment/connection.css",
+      "sha": "0de04f5ad68902b740054a133023fb299e869662",
+      "size": 31050
+    },
+    {
+      "path": "assessment/connection.js",
+      "sha": "c2f1ccac79cef5b4b35aa04024b976fc36c7fd78",
+      "size": 21178
+    },
+    {
+      "path": "assessment/crossmere-intro.css",
+      "sha": "b58df5abdae52b3d9624d3c4a9ed76ff56e3294b",
+      "size": 1513
+    },
+    {
+      "path": "assessment/crossmere-intro.js",
+      "sha": "d47f49ed5b5b7af3683b457a06a716d00ea74905",
+      "size": 3612
+    },
+    {
+      "path": "assessment/fayne-rig-lab.css",
+      "sha": "b6e148b4421bd406a94deeec87fe326082135506",
+      "size": 6148
+    },
+    {
+      "path": "assessment/fayne-rig-lab.html",
+      "sha": "ae7176bdd6f023634e496376d72ccf620c399d6e",
+      "size": 2186
+    },
+    {
+      "path": "assessment/fayne-rig-lab.js",
+      "sha": "6ec96cd02628f86b924cfbe9a330804f6a9c978f",
+      "size": 864
+    },
+    {
+      "path": "assessment/index.html",
+      "sha": "ec34fd230d3ca616b8a1e8ff88d512b37f9ee4b4",
+      "size": 276788
+    },
+    {
+      "path": "assessment/new-opening.css",
+      "sha": "025927b55879e06088208390809829322f5e54ed",
+      "size": 11148
+    },
+    {
+      "path": "assessment/new-opening.js",
+      "sha": "c08cbeb2a613c937631660c95c336910d6e95236",
+      "size": 6954
+    },
+    {
+      "path": "assessment/pilot-prototype.html",
+      "sha": "10f1eb61e9f3662268405e8f53d5d5613e290792",
+      "size": 34104
+    },
+    {
+      "path": "assessment/rhythm-game-base.css",
+      "sha": "54089ee97a6057ad1ef2fcef76d0fc4bb08aaf95",
+      "size": 130235
+    },
+    {
+      "path": "assessment/rhythm-game-base.js",
+      "sha": "b266694dcc1e26ebb76bb6fb195e037323e0a165",
+      "size": 85117
+    },
+    {
+      "path": "assessment/rhythm-game-core.css",
+      "sha": "54089ee97a6057ad1ef2fcef76d0fc4bb08aaf95",
+      "size": 130235
+    },
+    {
+      "path": "assessment/rhythm-game-core.js",
+      "sha": "b266694dcc1e26ebb76bb6fb195e037323e0a165",
+      "size": 85117
+    },
+    {
+      "path": "assessment/rhythm-game.css",
+      "sha": "5ae41022f460459f5c57c6eb1f9c434d04ac1831",
+      "size": 4329
+    },
+    {
+      "path": "assessment/rhythm-game.js",
+      "sha": "687287753d65addeebc7bbc85906d2ffb9735c39",
+      "size": 9223
+    },
+    {
+      "path": "assessment/rush-hours/assets.js",
+      "sha": "772d722f5ecbda5ad1a3b3dddcdea051f442068a",
+      "size": 623035
+    },
+    {
+      "path": "assessment/rush-hours/audio/leave-me-alone-except-dont-instrumental.mp3",
+      "sha": "666720f91cc8b07951d0c8a6f734a53b56ea4181",
+      "size": 717069
+    },
+    {
+      "path": "assessment/rush-hours/cursors/click.png",
+      "sha": "fdef5a13ed0ac8c4aedd260ff09c4771da4bd4ce",
+      "size": 6031
+    },
+    {
+      "path": "assessment/rush-hours/cursors/clickable.png",
+      "sha": "5b8d5797619328023450a3b5ce3e4578d9787bc8",
+      "size": 7525
+    },
+    {
+      "path": "assessment/rush-hours/cursors/normal.png",
+      "sha": "7f5bd6ac69237f4ec75482f1a7257fb2fd598ec8",
+      "size": 5995
+    },
+    {
+      "path": "assessment/rush-hours/customer-1/eating.webp",
+      "sha": "08f2ca34c39604ee8b9025a76f9fdb1f1cf899d4",
+      "size": 87862
+    },
+    {
+      "path": "assessment/rush-hours/customer-1/menu.webp",
+      "sha": "e6683ed65a46265466321f285bf230a1c5d4886d",
+      "size": 80238
+    },
+    {
+      "path": "assessment/rush-hours/customer-1/satisfied.webp",
+      "sha": "5631157c07ff029367a0404851fd64def091d292",
+      "size": 89954
+    },
+    {
+      "path": "assessment/rush-hours/customer-1/thinking.webp",
+      "sha": "edc8bbdb7bcbb668db72e481988a9d086cdb8702",
+      "size": 90372
+    },
+    {
+      "path": "assessment/rush-hours/customer-1/waiting.webp",
+      "sha": "8b1b4f3362f38a6cd1d5b8544e20bd43cff2219d",
+      "size": 78602
+    },
+    {
+      "path": "assessment/rush-hours/game.css",
+      "sha": "c3a8221636f3408c6cb440029b80454d050e4c79",
+      "size": 1260
+    },
+    {
+      "path": "assessment/rush-hours/game.js",
+      "sha": "a3f35e6abb49e647e8c446fde6a43000e61eb8a8",
+      "size": 7007
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/down-left.webp",
+      "sha": "3f79de969fc38e50ef55b6f90496cbac1bbcb80e",
+      "size": 34142
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/down-right.webp",
+      "sha": "b1905ec34052b4fccf17819f66f4ce0f930a8374",
+      "size": 33914
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/down.webp",
+      "sha": "c082801104dfc7095533ed0d7febb6b9155da15a",
+      "size": 35202
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/left.webp",
+      "sha": "c0629db422d85ea04291a45fcb5a29a6faae6e61",
+      "size": 27620
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/right.webp",
+      "sha": "a6dbed6cc794e5b92d7452ee6b2cf60d826537bf",
+      "size": 27790
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/up-left.webp",
+      "sha": "e34b1aa1defa864b389c4fc01574d1cc96929c24",
+      "size": 31958
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/up-right.webp",
+      "sha": "c4145629e74debcf87ea87093a37124e4f4aca60",
+      "size": 32424
+    },
+    {
+      "path": "assessment/rush-hours/harvey-directions/up.webp",
+      "sha": "53ac895109ed0223bd68efb93c672d20b4de1bc8",
+      "size": 32612
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/down-left.webp",
+      "sha": "91b091a96438ed5205f814bd24bd79083a9be1a9",
+      "size": 137524
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/down-right.webp",
+      "sha": "f0e1363e542f715e1feec4cd01ca6eec65bbfddf",
+      "size": 136074
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/down.webp",
+      "sha": "4d1e7902a5ae3776d8f89b487d2b4a930d3a2e8b",
+      "size": 141586
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/left.webp",
+      "sha": "e7348807ed6db2aacb266eb35eae3fa1a815e155",
+      "size": 119996
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/right.webp",
+      "sha": "17fac518e5dea70d66e0b7e64993069f045670fe",
+      "size": 120954
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/up-left.webp",
+      "sha": "ed5cf263579187f621723cb9d0b676fcb1fe4a59",
+      "size": 130200
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/up-right.webp",
+      "sha": "9f014533033f3aa42bb80b6fb2d3cbb027d5a6ed",
+      "size": 130856
+    },
+    {
+      "path": "assessment/rush-hours/harvey-phone/up.webp",
+      "sha": "1a4cc707714a9ce62db3f6aff2f5f5a24e9c78b5",
+      "size": 124870
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down-left/1.webp",
+      "sha": "b70ad359ad9c18301e307d0ba7e4679547381a51",
+      "size": 68380
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down-left/2.webp",
+      "sha": "6d651bd2bedcb88f5f7543a4a5f42de7b431f959",
+      "size": 61196
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down-right/1.webp",
+      "sha": "497af0396949d065073607a75911ec30bc1eef3d",
+      "size": 68304
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down-right/2.webp",
+      "sha": "a043d2ea194065da65700ea94b021958b68c8c88",
+      "size": 61382
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down-right/3.webp",
+      "sha": "497af0396949d065073607a75911ec30bc1eef3d",
+      "size": 68304
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down-right/4.webp",
+      "sha": "a043d2ea194065da65700ea94b021958b68c8c88",
+      "size": 61382
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down/1.webp",
+      "sha": "6db30d741fd536c12582ea7b3d91b9c44c148802",
+      "size": 66086
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down/2.webp",
+      "sha": "0be4edf4bc87234674f9c8e612a0d2270f466ca4",
+      "size": 61326
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down/3.webp",
+      "sha": "bb102f3d8f2378e16bf853628949b558785cc021",
+      "size": 62528
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-down/4.webp",
+      "sha": "3a26fb55234e231e948637dc8c8d9e9950832228",
+      "size": 61368
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-left/1.webp",
+      "sha": "8dfab3b248ef361662cc1a4cf16c41ef46ff2a08",
+      "size": 78208
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-left/2.webp",
+      "sha": "b86b6a84ade401260b0568698b5a6f67a3c5669f",
+      "size": 63116
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-left/3.webp",
+      "sha": "1a7b10b5ed184cf58bb170911b734705d3c530ae",
+      "size": 63126
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-left/4.webp",
+      "sha": "cb014b272ea9f64746f870e225fa545d41b17ba7",
+      "size": 61208
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-right/1.webp",
+      "sha": "23702b460889cdd3e5c807575b6912ef36d83409",
+      "size": 79014
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-right/2.webp",
+      "sha": "b3fc174574fd8d35d95afc6c15f80386832b8f1f",
+      "size": 62966
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-right/3.webp",
+      "sha": "1c36ce0187e73c0ffca44c4693b1ea7d16574347",
+      "size": 62418
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-right/4.webp",
+      "sha": "12ef2e4985bb52bd40cd93a47c0a0c15545a006f",
+      "size": 60360
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up-left/1.webp",
+      "sha": "082cea2fc7920d931f5de1d5ca2adf0d37ea85a5",
+      "size": 64002
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up-left/2.webp",
+      "sha": "fe36d9730606788f66e724bb71e224de7664a589",
+      "size": 59956
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up-left/3.webp",
+      "sha": "8de9d339345394e59ee120e7354189623f9c8b82",
+      "size": 64066
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up-left/4.webp",
+      "sha": "0a0b82400bebf22fb3e75adad197b88f8502e2e3",
+      "size": 60218
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up-right/1.webp",
+      "sha": "0a0b82400bebf22fb3e75adad197b88f8502e2e3",
+      "size": 60218
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up-right/2.webp",
+      "sha": "8de9d339345394e59ee120e7354189623f9c8b82",
+      "size": 64066
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up/1.webp",
+      "sha": "5f8e8575a932c67c875af80e8d1611e7df6c1a5d",
+      "size": 57300
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up/2.webp",
+      "sha": "b6ee35a2ce5bebe82923edcd733d4b50edaad68a",
+      "size": 60596
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up/3.webp",
+      "sha": "c1121f7c750ecf3928817135d43d580ca1cc2a0e",
+      "size": 55960
+    },
+    {
+      "path": "assessment/rush-hours/harvey-walk-up/4.webp",
+      "sha": "2b1b3f8169a9c678a9a93188b6bc21d91cc8f2a1",
+      "size": 58988
+    },
+    {
+      "path": "assessment/rush-hours/index.html",
+      "sha": "0fdf5692bf82d8d830cd4f1b5f3bda90d3194a29",
+      "size": 918
+    },
+    {
+      "path": "assessment/rush-hours/opening.css",
+      "sha": "199388f7372ac5c458644431c256cbe031c17562",
+      "size": 3275
+    },
+    {
+      "path": "assessment/rush-hours/opening.js",
+      "sha": "f3006adced0d5d0917695fad169eae6a5c4b8501",
+      "size": 3871
+    },
+    {
+      "path": "assessment/rush-hours/opening/1.webp",
+      "sha": "e2e5228c41104ca9d32ccf5b7635c33a60480912",
+      "size": 419856
+    },
+    {
+      "path": "assessment/rush-hours/opening/2.webp",
+      "sha": "784373daa7093a595bb489d352fad27a87d301f6",
+      "size": 450546
+    },
+    {
+      "path": "assessment/rush-hours/opening/3.webp",
+      "sha": "7a5c5a49a383a69f4cf1032b43b48b7721bb804a",
+      "size": 384190
+    },
+    {
+      "path": "assessment/rush-hours/opening/4.webp",
+      "sha": "0b21500342340c181844332a47d1e131fab4a160",
+      "size": 196168
+    },
+    {
+      "path": "assessment/rush-hours/opening/5.webp",
+      "sha": "7b64fe0228181c26a412b3d3d5f8baa622e893b3",
+      "size": 245006
+    },
+    {
+      "path": "assessment/rush-hours/opening/6.webp",
+      "sha": "37ddcf15d74388aef7fdc03efea046be7a54ed7e",
+      "size": 268868
+    },
+    {
+      "path": "assessment/rush-hours/opening/7.webp",
+      "sha": "126a5b9df95c8d5a86f53dc8b99c7b48d520fd7d",
+      "size": 361516
+    },
+    {
+      "path": "assessment/rush-hours/opening/8.webp",
+      "sha": "c02de8b23acd5a4c46cd83fb37d8e0b102bc348f",
+      "size": 365382
+    },
+    {
+      "path": "assessment/rush-hours/portraits/harvey.webp",
+      "sha": "bed39258ccd4eafd6879a254380dc83df4befd5b",
+      "size": 11996
+    },
+    {
+      "path": "assessment/rush-hours/portraits/tess.webp",
+      "sha": "8692e91c1ab3b365e4c714c986899ce7117ce894",
+      "size": 12086
+    },
+    {
+      "path": "assessment/rush-hours/scene-assets.js",
+      "sha": "b8eff8b28acf149b3b4954f1bfc5102e5b59e728",
+      "size": 535165
+    },
+    {
+      "path": "assessment/rush-hours/scene/base.webp",
+      "sha": "5f3c601e496e5db8666a73c6e126969fcb9df708",
+      "size": 102416
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-final.webp",
+      "sha": "e7fa17b01de0a1f53ac19e2eda65ebfa58ff2ad6",
+      "size": 266076
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/base.webp",
+      "sha": "55f2b60d0c845e944ed5d58f81391ed496c78e5b",
+      "size": 109700
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/carpet.webp",
+      "sha": "c82d2b6f7e65277cae31b9e6fa0264b87c52bc17",
+      "size": 162082
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/couch.webp",
+      "sha": "e6ac4deab447252e763e7fcac592e98f30840aca",
+      "size": 226024
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/counter.webp",
+      "sha": "e1e79a6d1a55d613a068a6bcabdae39c2368933f",
+      "size": 151960
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/door.webp",
+      "sha": "a1fd7543fca365a6de483ca6ec7037a81beb1a69",
+      "size": 86944
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/drink-row.webp",
+      "sha": "b88546102b5ad08406bb005bf35e983811aa20d8",
+      "size": 150256
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/kitchen-sign.webp",
+      "sha": "2076f10e437342f424777881d611fd872bd753c9",
+      "size": 49296
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/shelf.webp",
+      "sha": "eec538ec88c6897bd0d31c7d9126d3e2c8f9a34a",
+      "size": 106144
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/staff-door.webp",
+      "sha": "4149387c64582fc1dc623da7d78a4a4a391c9a65",
+      "size": 49728
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/table-1.webp",
+      "sha": "ffc974908b48c53c3365d1808d494e897fbadd8b",
+      "size": 231526
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/table-2.webp",
+      "sha": "ca4da1eaad89bb05a6c0dec4eea0c633b8b21145",
+      "size": 184244
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/table-3.webp",
+      "sha": "bd039bc4d0c82d1fe64c313675b9c7df5abba396",
+      "size": 128526
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v2/wall-row.webp",
+      "sha": "9b0f2057cc585b24c320d8ee677f01f20f637d00",
+      "size": 165638
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v3/reference.webp",
+      "sha": "b74c3a88bf7d43e2ed91d2e049ed34da3da73a52",
+      "size": 249268
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/base.webp",
+      "sha": "55f2b60d0c845e944ed5d58f81391ed496c78e5b",
+      "size": 109700
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/carpet.webp",
+      "sha": "c82d2b6f7e65277cae31b9e6fa0264b87c52bc17",
+      "size": 162082
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/couch.webp",
+      "sha": "e6ac4deab447252e763e7fcac592e98f30840aca",
+      "size": 226024
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/counter.webp",
+      "sha": "e1e79a6d1a55d613a068a6bcabdae39c2368933f",
+      "size": 151960
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/door.webp",
+      "sha": "a1fd7543fca365a6de483ca6ec7037a81beb1a69",
+      "size": 86944
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/drink-row.webp",
+      "sha": "b88546102b5ad08406bb005bf35e983811aa20d8",
+      "size": 150256
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/kitchen-sign.webp",
+      "sha": "2076f10e437342f424777881d611fd872bd753c9",
+      "size": 49296
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/shelf.webp",
+      "sha": "eec538ec88c6897bd0d31c7d9126d3e2c8f9a34a",
+      "size": 106144
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/staff-door.webp",
+      "sha": "4149387c64582fc1dc623da7d78a4a4a391c9a65",
+      "size": 49728
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/table-1.webp",
+      "sha": "c7561ee75da47a07cb1f5e114a71c7ee327b720d",
+      "size": 68982
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/table-2.webp",
+      "sha": "44fe347233ed1d37a70ee288f7d0742a7e798cf1",
+      "size": 82066
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/table-3.webp",
+      "sha": "bd039bc4d0c82d1fe64c313675b9c7df5abba396",
+      "size": 128526
+    },
+    {
+      "path": "assessment/rush-hours/scene/cafe-v4/wall-row.webp",
+      "sha": "9b0f2057cc585b24c320d8ee677f01f20f637d00",
+      "size": 165638
+    },
+    {
+      "path": "assessment/rush-hours/scene/couch-corner.webp",
+      "sha": "1cc679dd7ed212c45a37a306531da53adb6b159b",
+      "size": 172042
+    },
+    {
+      "path": "assessment/rush-hours/scene/couch-reference-v2.webp",
+      "sha": "d39ae7d1086eb2d10da92d7b6131b145f7e59546",
+      "size": 58638
+    },
+    {
+      "path": "assessment/rush-hours/scene/couch-reference.webp",
+      "sha": "0b3f386f314fb099cc6f53e26205ae9387e954a7",
+      "size": 67286
+    },
+    {
+      "path": "assessment/rush-hours/scene/couch.webp",
+      "sha": "1cc679dd7ed212c45a37a306531da53adb6b159b",
+      "size": 172042
+    },
+    {
+      "path": "assessment/rush-hours/scene/counter-occluder.webp",
+      "sha": "38aec36a04497ee3fb44611a17e009b1d4c522ec",
+      "size": 61332
+    },
+    {
+      "path": "assessment/rush-hours/scene/counter.webp",
+      "sha": "d7d10c4c2747a1d4a7e8600f49eab0ace5c09463",
+      "size": 128080
+    },
+    {
+      "path": "assessment/rush-hours/scene/empty-cafe.webp",
+      "sha": "5f3c601e496e5db8666a73c6e126969fcb9df708",
+      "size": 102416
+    },
+    {
+      "path": "assessment/rush-hours/scene/master.webp",
+      "sha": "b74c3a88bf7d43e2ed91d2e049ed34da3da73a52",
+      "size": 249268
+    },
+    {
+      "path": "assessment/rush-hours/scene/shelf.webp",
+      "sha": "263b6e45a5296687e3e78605b3f96b8260d16f93",
+      "size": 52096
+    },
+    {
+      "path": "assessment/rush-hours/scene/tables-occluder.webp",
+      "sha": "3d2ffe7b4c25c700ee8d9907c7d689ee9acfbfba",
+      "size": 50780
+    },
+    {
+      "path": "assessment/rush-hours/scene/tables.webp",
+      "sha": "2cabcd989a024400642a357fcbd5f6af8d535f0e",
+      "size": 85734
+    },
+    {
+      "path": "assessment/rush-hours/scene/wall.webp",
+      "sha": "61c34f884b37a6a0ec32493596902e65bc24b166",
+      "size": 159338
+    },
+    {
+      "path": "assessment/rush-hours/stations/coffee.webp",
+      "sha": "a7a718123405961863702f271727aae2f6bf7ccf",
+      "size": 225532
+    },
+    {
+      "path": "assessment/rush-hours/stations/desserts.webp",
+      "sha": "038491795b92870d0ef47b48031e995c77bd275e",
+      "size": 328628
+    },
+    {
+      "path": "assessment/rush-hours/stations/drinks.webp",
+      "sha": "cb7651a7a73aa88ebae68ea8b32c7e92111b08fe",
+      "size": 281746
+    },
+    {
+      "path": "assessment/rush-hours/tess-assets.js",
+      "sha": "43f0faf00f4759bb07c7d41face302207a0ea2ba",
+      "size": 470337
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/down-left.webp",
+      "sha": "f0915155be293c2f1cd5ca692bcbf9224168fde9",
+      "size": 151704
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/down-right.webp",
+      "sha": "f242d7bb71363e9e6e82f214e78a5ef293a2b01a",
+      "size": 151926
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/down.webp",
+      "sha": "2beba01c9f15553b82169c2230b66abcbf140e32",
+      "size": 142524
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/left.webp",
+      "sha": "863dc8bd11499a1afea900c398e2c2555b164d4d",
+      "size": 136564
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/right.webp",
+      "sha": "5a1b2b69cf9f3af2612899d972ffc6d170523dce",
+      "size": 135370
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/up-left.webp",
+      "sha": "c74310abcd8f7216126969e2eee3115888b41ac4",
+      "size": 140138
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/up-right.webp",
+      "sha": "7a7740e926f9d27387866b1d6fb98f3208a6d72d",
+      "size": 139946
+    },
+    {
+      "path": "assessment/rush-hours/tess-tray/up.webp",
+      "sha": "ea54dcfc33735138930e4a712daf31ff05d3272e",
+      "size": 121044
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-left/1.webp",
+      "sha": "1472ed0390acad33aa9ef8f948cee0df17887171",
+      "size": 247354
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-left/2.webp",
+      "sha": "d28349b26ceb744c11315dff83997d08e52ae484",
+      "size": 240466
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-left/3.webp",
+      "sha": "d1ffe44b9ae99323080b925ce74f39a6d31a7a7d",
+      "size": 242250
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-left/4.webp",
+      "sha": "3ec66d8d6615358ddab7e154cb40f21f054135ae",
+      "size": 254780
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-right/1.webp",
+      "sha": "a0331761764f60ba2a53f17ca2cc510cb5ef3ad9",
+      "size": 246634
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-right/2.webp",
+      "sha": "fcc0b8082141b7daf261f9a278d3ae2300ad995d",
+      "size": 257026
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-right/3.webp",
+      "sha": "6664478e21a2f940b77aa4d1ed81a517250d68b1",
+      "size": 243398
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down-right/4.webp",
+      "sha": "ba8713b345a9dcbd45fec560e8ceec6b26be15ab",
+      "size": 240744
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down/1.webp",
+      "sha": "441a874f70a53561d4c80cd197f2a58fe7bc7232",
+      "size": 229122
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down/2.webp",
+      "sha": "dcb70884b1cc4cb316e9d16745e661f1b45eb411",
+      "size": 214664
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down/3.webp",
+      "sha": "f68ff9d1709a929d9750d86fd5fb48d3fa6dba91",
+      "size": 221198
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-down/4.webp",
+      "sha": "7bdbc26bc7b6d3cfc92c1e033a77b23b45072b36",
+      "size": 221700
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-left/1.webp",
+      "sha": "85bc8994dc9fd2c33f6e499a6f5734dd0be8c584",
+      "size": 275924
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-left/2.webp",
+      "sha": "c1ba0152b8cc9350b5262b724976c4c6f02c1192",
+      "size": 293882
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-left/3.webp",
+      "sha": "fe6cd29a4812032c82ba26d5714218ca23b61918",
+      "size": 235708
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-left/4.webp",
+      "sha": "1869a3a105e7033a6eb5a54e298d40427f74fba8",
+      "size": 200804
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-right/1.webp",
+      "sha": "4db5d08905605dfd416c6c27f4b8a81a6406716b",
+      "size": 276018
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-right/2.webp",
+      "sha": "4e2678db90a523e546b78ad1a8b2ac8fec72eb53",
+      "size": 294004
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-right/3.webp",
+      "sha": "4a651a4ad19e32687648c493dd7388c87cf4a0b8",
+      "size": 235600
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-right/4.webp",
+      "sha": "15bc4a156979d88229e24e59e881bed4cd1b5f3f",
+      "size": 199820
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-left/1.webp",
+      "sha": "16c03e483d7eed7f67a4a7d205fb6ee5299b5752",
+      "size": 223270
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-left/2.webp",
+      "sha": "43c9e544d071c40847ecf0dfc321eded09cadb56",
+      "size": 212518
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-left/3.webp",
+      "sha": "195ac256f7faad0c7e0271ad8ee431132d374b50",
+      "size": 157788
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-left/4.webp",
+      "sha": "6ed2e4f39fbbc10d682096a158cf9b1b4da7ca7c",
+      "size": 149266
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-right/1.webp",
+      "sha": "a122cdbe4656493f29c4d68fdaeebc0d4adef3f4",
+      "size": 222958
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-right/2.webp",
+      "sha": "b44eea142ce898b2094e866a975bb3caa0743226",
+      "size": 212972
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-right/3.webp",
+      "sha": "079972af356093d4126e26a6f718b56c41740947",
+      "size": 157394
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up-right/4.webp",
+      "sha": "63b7b91cc30a22a24919e75a26810da4fc47d8eb",
+      "size": 149584
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up/1.webp",
+      "sha": "8bc7195566920d804d52d9a6f89e0201f7d06149",
+      "size": 160962
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up/2.webp",
+      "sha": "8db0d930f270578befbeaabd9e425ef4b11ef16c",
+      "size": 165432
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up/3.webp",
+      "sha": "4685a1204ed7442cc459bc5aa1adec99135f0118",
+      "size": 162566
+    },
+    {
+      "path": "assessment/rush-hours/tess-walk-up/4.webp",
+      "sha": "708e142b84228fa6e988b0721ba9d8ba3affe4f9",
+      "size": 172730
+    },
+    {
+      "path": "assessment/sable-music-video.css",
+      "sha": "83c3d75dad47004e73e26b0a6bec9949c6b97148",
+      "size": 6697
+    },
+    {
+      "path": "assessment/sable-music-video.js",
+      "sha": "56298147f1c8cf466c5be0f30f624b1af6deef68",
+      "size": 4457
+    },
+    {
+      "path": "assessment/script.js",
+      "sha": "053300599470bc6a4636f75ea9749b0a8b8abbb6",
+      "size": 596777
+    },
+    {
+      "path": "assessment/station-background.css",
+      "sha": "591da03a65f4081c3c9fad77c708cd0622d34347",
+      "size": 4359
+    },
+    {
+      "path": "assessment/station-core.css",
+      "sha": "e7ba4942c70b720b29a0ec6cc0d70e4ed5bcb336",
+      "size": 14496
+    },
+    {
+      "path": "assessment/styles.css",
+      "sha": "105b259cb751abd89f882fe63dcf638ced1a1771",
+      "size": 737108
+    },
+    {
+      "path": "desktop/README.md",
+      "sha": "14f36dd18e1ddbed6fb63e06ac0fa5f3eae76ace",
+      "size": 879
+    },
+    {
+      "path": "desktop/icon.ico",
+      "sha": "7bca1a2e7fb3295092aa834cc2b72b2a52ed3963",
+      "size": 113387
+    },
+    {
+      "path": "desktop/main.js",
+      "sha": "bd0c9f79ab90f9ebf694b7b7e70d76d781b5761a",
+      "size": 2715
+    },
+    {
+      "path": "desktop/offline.html",
+      "sha": "40710ccdfb632f21b2d26a4eef36704a77173d93",
+      "size": 1272
+    },
+    {
+      "path": "desktop/package.json",
+      "sha": "2af0e9bba8896262d0382a49810748db91b6e3ab",
+      "size": 718
+    },
+    {
+      "path": "manifest.webmanifest",
+      "sha": "2b6cd3a9e9ffd73fe2b37a44887a6362b1e33ef2",
+      "size": 729
+    },
+    {
+      "path": "offline.html",
+      "sha": "c761c77fcb57fb47700f3a0a3c234cc8893f3514",
+      "size": 1245
+    },
+    {
+      "path": "raylene/creator-navigation.css",
+      "sha": "23d9fdf64a495da234a99ba485c3c0f2be92b351",
+      "size": 873
+    },
+    {
+      "path": "raylene/ego-check-origins/index.html",
+      "sha": "c6077f7cfe463d2ebc719de5e1ac1d745aacf902",
+      "size": 18471
+    },
+    {
+      "path": "raylene/ego-corruption.css",
+      "sha": "59d9375c1963c2225be177786fda4b2a94a9c728",
+      "size": 3366
+    },
+    {
+      "path": "raylene/ego-corruption.js",
+      "sha": "dec7e4ec45c90aab411bd1ebfc8f60b82718f646",
+      "size": 473
+    },
+    {
+      "path": "raylene/ego-cursor.css",
+      "sha": "f86bac31d8304263d4bfcff26ec60a3019248505",
+      "size": 3028
+    },
+    {
+      "path": "raylene/ego-cursor.js",
+      "sha": "b20390e10287bf890d20513f45b45e4cb4008233",
+      "size": 2088
+    },
+    {
+      "path": "raylene/index.html",
+      "sha": "34d9d7605c5070234a70c14532118880d4408250",
+      "size": 2021
+    },
+    {
+      "path": "raylene/music-universe/index.html",
+      "sha": "b3f310a122b806449d17cdbba6ffcf2d6473a066",
+      "size": 14156
+    },
+    {
+      "path": "raylene/persona/index.html",
+      "sha": "801b45324045f445b44ab70bc85c4523c7a8e83d",
+      "size": 14995
+    },
+    {
+      "path": "raylene/persona/raylene-persona-hero.webp",
+      "sha": "14d94a81f32685ff044f97b7ee52b26520b72d06",
+      "size": 1899666
+    },
+    {
+      "path": "service-worker.js",
+      "sha": "3f032ca40a1b11a470d17168ad9497c02a508e75",
+      "size": 971
+    },
+    {
+      "path": "vercel.json",
+      "sha": "aca5bb27029167825702342ef2b2827b502d0041",
+      "size": 147
+    },
+    {
+      "path": "wiki/aetheridge/index.html",
+      "sha": "3f835447445b64ad6f415a3d328100c6b1d83494",
+      "size": 32180
+    },
+    {
+      "path": "wiki/assets/characters.css",
+      "sha": "9904e618b295000f217f8e89c84c54d52af9eef7",
+      "size": 12276
+    },
+    {
+      "path": "wiki/assets/ego-core.css",
+      "sha": "cf40ee0a874e521aa866a39640fd8128ec67141c",
+      "size": 11408
+    },
+    {
+      "path": "wiki/assets/field-guide.css",
+      "sha": "2ffd654c868560cc4fbd8d1c4ba68d26234e976c",
+      "size": 10236
+    },
+    {
+      "path": "wiki/assets/pulsari-clock.css",
+      "sha": "9a90fa2e68bb7e5f1e47d72b8a86521673ac3a0e",
+      "size": 8072
+    },
+    {
+      "path": "wiki/assets/pulsari-clock.js",
+      "sha": "883eefd0740e6eca90d1a530498ccc10b04322a0",
+      "size": 6751
+    },
+    {
+      "path": "wiki/assets/slang-records.json",
+      "sha": "7324329d367fe5873e3084cd41335357ae979b93",
+      "size": 110977
+    },
+    {
+      "path": "wiki/biology/index.html",
+      "sha": "099dbf3004b1ce97dca388191c30eb306e05f053",
+      "size": 39496
+    },
+    {
+      "path": "wiki/characters/fayne/index.html",
+      "sha": "71b88f407157d6fab0fc59bc00f5e5dee8132240",
+      "size": 9799
+    },
+    {
+      "path": "wiki/characters/index.html",
+      "sha": "b6311c49da05885830b8a613aecef5028dcd7a56",
+      "size": 11643
+    },
+    {
+      "path": "wiki/characters/jake/index.html",
+      "sha": "ab8af29d3c3c2c5e33201a8e1b3aebecc19bb82b",
+      "size": 9818
+    },
+    {
+      "path": "wiki/characters/milo/index.html",
+      "sha": "469ecafc6d20d4fb71ce522f684c75a1b8acb375",
+      "size": 9889
+    },
+    {
+      "path": "wiki/characters/raxian/index.html",
+      "sha": "e938baea1e4b4f43e5c2e5cbff5f86d3a4b49f64",
+      "size": 9915
+    },
+    {
+      "path": "wiki/characters/raze/index.html",
+      "sha": "abf0b1905a98e9fbaa7ca5f5725522f54a8ab9d9",
+      "size": 9822
+    },
+    {
+      "path": "wiki/characters/sable/index.html",
+      "sha": "f03dbe89190d0de0378cd6583b4a30528aa83f4c",
+      "size": 9814
+    },
+    {
+      "path": "wiki/clock/index.html",
+      "sha": "0ee7bb86567a4d37e24fcf1d3ff8df1af3e16b6e",
+      "size": 16553
+    },
+    {
+      "path": "wiki/clock/reading/index.html",
+      "sha": "f3030fdffb42d860c61d6eee4c914186354579d3",
+      "size": 10122
+    },
+    {
+      "path": "wiki/clock/snap/index.html",
+      "sha": "6e7bceb14a30adc2f62a35ff6fe824173a7e1cff",
+      "size": 10750
+    },
+    {
+      "path": "wiki/cuisine/index.html",
+      "sha": "b7b94a197b01f00de827b2d7c13794d3a5157d1e",
+      "size": 15922
+    },
+    {
+      "path": "wiki/currency/index.html",
+      "sha": "616eb2a97893445499fb73657fa442ec9507c270",
+      "size": 55948
+    },
+    {
+      "path": "wiki/ego/avatar/index.html",
+      "sha": "93f8880b492ad64fa6c0c145a3da80632711db79",
+      "size": 12992
+    },
+    {
+      "path": "wiki/ego/index.html",
+      "sha": "21cb7335f987a8a615a23db69c5b04254e37f9cd",
+      "size": 21738
+    },
+    {
+      "path": "wiki/ego/world/index.html",
+      "sha": "1f63428e7a37e03b70e87ea1ff6bb454fdc020eb",
+      "size": 12657
+    },
+    {
+      "path": "wiki/fashion/index.html",
+      "sha": "b8ccf11265c89d3a62cc489a1a426bad086bbb3c",
+      "size": 15687
+    },
+    {
+      "path": "wiki/festivals/index.html",
+      "sha": "286a204f15ef1dd07776346a9eb712825f2bc28c",
+      "size": 40150
+    },
+    {
+      "path": "wiki/flora/index.html",
+      "sha": "1c1f7fc4b963e4f0e191ea42f702e6a70b49334a",
+      "size": 16665
+    },
+    {
+      "path": "wiki/government/index.html",
+      "sha": "2e0c888e3accc566961eaa1952dc7521d04514fe",
+      "size": 36657
+    },
+    {
+      "path": "wiki/index.html",
+      "sha": "315e5f476f8fcc12c27b47db2636b1fec714f7c5",
+      "size": 43990
+    },
+    {
+      "path": "wiki/language/index.html",
+      "sha": "86177b3b2bf2122dae5e2f08e1e9937a885f8aaa",
+      "size": 16196
+    },
+    {
+      "path": "wiki/materials/index.html",
+      "sha": "4403a11e041535afc4c146fdd68465b11886eaf6",
+      "size": 15746
+    },
+    {
+      "path": "wiki/society/index.html",
+      "sha": "b8de8c886b2c9a36a86ed172823233e3bd539650",
+      "size": 18657
+    },
+    {
+      "path": "wiki/wildlife/index.html",
+      "sha": "3158064a01c0ff693cfec252b8d3b5244eb4ea0d",
+      "size": 15971
+    }
+  ]
+}
